@@ -1,0 +1,134 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="it">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="icon" href="favicon.ico" type="image/x-icon" /> 
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<title>News</title>
+<!--mstheme--><link rel="stylesheet" type="text/css" href="_themes/ramsete/rams1011.css"><meta name="Microsoft Theme" content="ramsete 1011, default">
+</head>
+
+<body>
+
+<font face="Arial">
+<!-- end masthead -->
+	</font>
+<div id="pagecell1" style="center">
+	<font face="Arial">
+  <!--pagecell1-->
+  
+  	</font>
+	<div id="breadCrumb">
+		&nbsp;<p style="text-align: center"><font size="6" face="Arial">RAMSETE : 
+		Room Acoustics modeling on PC </font></p>
+		<p style="text-align: center"><a href="home.htm">
+		<!--webbot bot="Navigation" s-type="sequence" s-orientation="horizontal" s-rendering="graphics" b-include-home="FALSE" b-include-up="FALSE" u-page="sid:1001" s-theme="Papyrus 0010" startspan --><script language="JavaScript"><!--
+MSFPhover = 
+  (((navigator.appName == "Netscape") && 
+  (parseInt(navigator.appVersion) >= 3 )) || 
+  ((navigator.appName == "Microsoft Internet Explorer") && 
+  (parseInt(navigator.appVersion) >= 4 ))); 
+function MSFPpreload(img) 
+{
+  var a=new Image(); a.src=img; return a; 
+}
+// --></script><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav1n=MSFPpreload("_derived/home.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav1h=MSFPpreload("_derived/home.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="home.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1h.src" onmouseout="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1n.src"><img src="_derived/home.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Home" align="middle" name="MSFPnav1"></a> <img src="_derived/news.htm_cmp_Papyrus010_hbtn_p.gif" width="141" height="21" border="0" alt="News" align="middle"> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav2n=MSFPpreload("_derived/features.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav2h=MSFPpreload("_derived/features.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="features.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav2'].src=MSFPnav2h.src" onmouseout="if(MSFPhover) document['MSFPnav2'].src=MSFPnav2n.src"><img src="_derived/features.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Package" align="middle" name="MSFPnav2"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav3n=MSFPpreload("_derived/download.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav3h=MSFPpreload("_derived/download.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="download.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav3'].src=MSFPnav3h.src" onmouseout="if(MSFPhover) document['MSFPnav3'].src=MSFPnav3n.src"><img src="_derived/download.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Download" align="middle" name="MSFPnav3"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav4n=MSFPpreload("_derived/support.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav4h=MSFPpreload("_derived/support.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="support.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav4'].src=MSFPnav4h.src" onmouseout="if(MSFPhover) document['MSFPnav4'].src=MSFPnav4n.src"><img src="_derived/support.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Support" align="middle" name="MSFPnav4"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav5n=MSFPpreload("_derived/AboutUS.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav5h=MSFPpreload("_derived/AboutUS.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="AboutUS.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav5'].src=MSFPnav5h.src" onmouseout="if(MSFPhover) document['MSFPnav5'].src=MSFPnav5n.src"><img src="_derived/AboutUS.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="About Us" align="middle" name="MSFPnav5"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav6n=MSFPpreload("_derived/ext1008_cmp_Papyrus010_hbtn.gif"); MSFPnav6h=MSFPpreload("_derived/ext1008_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="http://www.laegroup.org/forum/index.php?board=9.0" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav6'].src=MSFPnav6h.src" onmouseout="if(MSFPhover) document['MSFPnav6'].src=MSFPnav6n.src"><img src="_derived/ext1008_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Forum" align="middle" name="MSFPnav6"></a><!--webbot bot="Navigation" i-checksum="46985" endspan --></a></p>
+		<table border="1" width="97%" id="table7" bgcolor="#FFFFFF" cellpadding="3" style="border-collapse: collapse">
+			<tr>
+				<td><font face="Arial" size="5">New features added to the 
+				following modules:</font></td>
+			</tr>
+		</table>
+		<table border="1" width="97%" id="table8" bgcolor="#FFFFFF" cellpadding="3" style="border-collapse: collapse">
+			<tr>
+				<td align="left" valign="top"><font face="Arial"><strong>
+				<a href="RamseteCad.htm">Ramsete CAD:</a></strong></font><p>
+				<font face="Arial">Rotation around an arbitatry axis<br>
+				You can see all materials parameters from within the CAD<br>
+				Search and replace materials<br>
+				Roof and surfaces with complex shapes<br>
+				Undo<br>
+				Receivers grid<br>
+				Monopermeable surfaces (suited for industrial applications)<br>
+				Linear sources emulation<br>
+				Tool for drawing pipes<br>
+				Used materials list<br>
+				Project notes</font></p>
+				<p>&nbsp;</td>
+				<td align="left" valign="top" width="40%"><font face="Arial">
+				<a href="Source%20Manager.htm"><strong>Source Manager:</strong></a></font><p>
+				<font face="Arial">Enhanced import of different file formats
+				</font></p>
+				<p><font face="Arial">Polar directivity graph of a loudspeaker</font></p>
+				<p><font face="Arial">Arbitrary gemetry of the source in the ISO 
+				3744 module</font></p>
+				<p><font face="Arial">The source geometry can be imported by a 
+				RAY file, and is saved in the .SPK file, so that it is displayed 
+				in Ramsete CAD</font></p>
+				<p>&nbsp;</td>
+				<td align="left" valign="top"><font face="Arial"><strong>
+				<a href="Ramsete%20Tracer.htm">Ramsete Trace:</a></strong></font><p>
+				<font face="Arial">32 bit version<br>
+				Pyramids path reconstruction<br>
+				Management of monopermeable surfaces<br>
+				Multiple diffraction paths<br>
+				Diffusion computation</font></p>
+				<p>&nbsp;</td>
+			</tr>
+			<tr>
+				<td align="left" valign="top"><font face="Arial">
+				<a href="MaterialManager.htm"><strong>Material Manager:</strong></a></font><p>
+				<font face="Arial">Automatic conversion between &#945;-Sabine e 
+				&#945;-Ramsete<br>
+				Graphical representation of all coefficients<br>
+				Possibility to specify a diffusion coefficient</font></p>
+				<p>&nbsp;</td>
+				<td align="left" valign="top" width="40%"><font face="Arial">
+				<a href="RamseteView.htm"><strong>Ramsete View:</strong></a></font><p>
+				<font face="Arial">Optimization of a e b parameters<br>
+				Impulse response visualization<br>
+				Sum of result files<br>
+				Mapping using Surfer for Windows<br>
+				Printing of the screen selection<br>
+				Pyramids path visualization<br>
+				Conversion of result files into wav format<br>
+				Convolution between two wav files (auralization, etc..)</font></p>
+				<p>&nbsp;</td>
+				<td align="left" valign="top"><font face="Arial"><strong>
+				<a href="WaveConvolver.htm">Wave Convolver</a></strong></font><p>
+				<font face="Arial"><strong><a href="AudioConverter.htm">Audio 
+				Converter</a></strong></font></p>
+				<p>&nbsp;</td>
+			</tr>
+		</table>
+		<table border="1" width="97%" cellpadding="3" bgcolor="#FFFFFF" id="table9" style="border-collapse: collapse">
+			<tr>
+				<td style="text-align: left">
+				<p align="center"><a href="futurerelease.htm">
+				<font face="Arial">C</font><font face="Arial" size="3">lick here</font></a><font face="Arial" size="3"> 
+				for a preview of forthcoming additional releases.</font></p>
+				<hr>
+				<p align="center"><font face="Arial" size="3">©2007
+				<a href="http://www.laegroup.org">LAE</a> - Edited by
+				<a href="http://www.angelofarina.it/adriano">Adriano Farina</a></font></td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+</body>
+
+</html>

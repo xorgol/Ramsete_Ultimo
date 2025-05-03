@@ -1,0 +1,73 @@
+EUTRON
+
+Internet : http://www.smartkey.eutron.it
+Helpdesk email : helpdesk@eutron.it
+Commercial email : info@eutron.it
+Commercial phone : 035697080
+Fax : 035697092
+
+
+SMARTKEY DRIVER INSTALLATION
+----------------------------
+
+Questo pacchetto contiene la libreria per l'installazione automatica dei driver 
+SmartKey. Questa libreria può essere usata per installare i driver SmartKey con 
+la semplice chiamata di una funzione.
+
+
+FILES
+-----
+
+Sdi.exe
+Sdiline.exe
+	Semplici applicazioni visuali ed a riga di comando che usano la libreria 
+	di installazione automatica per installare i driver SmartKey.
+
+skeyinst.dll
+	Libreria per l'installazione automatica dei driver.
+
+skeyinst-html.zip
+skeyinst.chm
+	Documentazione della libreria skeyinst.dll in formato CHM e HTML.
+
+skeyinst-is631.zip
+skeyinst-is701.zip
+	Esempi InstallShield 6.31 e 7.01 per l'utilizzo della libreria skeyinst.dll.
+
+skeyinst.bas
+	Interfaccia VisualBasic per l'utilizzo della libreria skeyinst.dll.
+
+skeyinst.h
+skeyinst.lib
+	Interfaccia C per l'utilizzo della libreria skeyinst.dll.
+
+eugss2k.sys
+eugssnt.sys
+eugssxp.sys
+eusk2par.sys
+skeyusb.inf
+skeyusb.sys
+skeyusbnt.inf
+skeyusbnt.sys
+usbdrv.inf
+usbdrv.sys
+psapi.dll
+	File necessari per l'installazione dei driver SmartKey.
+
+
+FUNZIONALITA'
+-------------
+
+Per ogni driver il tool SDI permette tre differenti operazioni.
+
+* Install
+Installazione o aggiornamento del driver.
+
+* Uninstall
+Rimozione del driver.
+
+* Remove/Forced Uninstall
+Rimozione completa e forzata dei driver per cercare di risolvere situazioni 
+errone di installazione. Questa operazione non deve essere usata in condizioni 
+normali, ma solo per cercare di recuperare situazioni errone.
+Dopo questa operazione è sempre richiesto il reboot del sistema.

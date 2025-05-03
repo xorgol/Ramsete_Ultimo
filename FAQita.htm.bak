@@ -1,0 +1,1754 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="it">
+<link rel="icon" href="favicon.ico" type="image/x-icon" /> 
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<title>RAMSETE - F.A.Q. - Italian Version</title>
+<style>
+<!--
+.Stile1 {font-size: small}
+.Stile2 {font-size: medium}
+-->
+</style>
+<!--mstheme--><link rel="stylesheet" type="text/css" href="_themes/ramsete/rams1011.css"><meta name="Microsoft Theme" content="ramsete 1011, default">
+</head>
+
+<body>
+
+<font face="Arial">
+<!-- end masthead -->
+	</font>
+<div id="pagecell1" style="center">
+	<font face="Arial">
+  <!--pagecell1-->
+  
+  	</font>
+	<div id="breadCrumb">
+		&nbsp;<p style="text-align: center"><font size="6" face="Arial">RAMSETE : 
+		Room Acoustics modeling on PC </font></p>
+		<p style="text-align: center"><a href="home.htm">
+		<!--webbot bot="Navigation" s-type="sequence" s-orientation="horizontal" s-rendering="graphics" b-include-home="FALSE" b-include-up="FALSE" u-page="sid:1001" s-theme="Papyrus 0010" startspan --><script language="JavaScript"><!--
+MSFPhover = 
+  (((navigator.appName == "Netscape") && 
+  (parseInt(navigator.appVersion) >= 3 )) || 
+  ((navigator.appName == "Microsoft Internet Explorer") && 
+  (parseInt(navigator.appVersion) >= 4 ))); 
+function MSFPpreload(img) 
+{
+  var a=new Image(); a.src=img; return a; 
+}
+// --></script><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav1n=MSFPpreload("_derived/home.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav1h=MSFPpreload("_derived/home.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="home.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1h.src" onmouseout="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1n.src"><img src="_derived/home.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Home" align="middle" name="MSFPnav1"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav2n=MSFPpreload("_derived/news.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav2h=MSFPpreload("_derived/news.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="news.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav2'].src=MSFPnav2h.src" onmouseout="if(MSFPhover) document['MSFPnav2'].src=MSFPnav2n.src"><img src="_derived/news.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="News" align="middle" name="MSFPnav2"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav3n=MSFPpreload("_derived/features.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav3h=MSFPpreload("_derived/features.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="features.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav3'].src=MSFPnav3h.src" onmouseout="if(MSFPhover) document['MSFPnav3'].src=MSFPnav3n.src"><img src="_derived/features.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Package" align="middle" name="MSFPnav3"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav4n=MSFPpreload("_derived/download.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav4h=MSFPpreload("_derived/download.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="download.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav4'].src=MSFPnav4h.src" onmouseout="if(MSFPhover) document['MSFPnav4'].src=MSFPnav4n.src"><img src="_derived/download.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Download" align="middle" name="MSFPnav4"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav5n=MSFPpreload("_derived/support.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav5h=MSFPpreload("_derived/support.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="support.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav5'].src=MSFPnav5h.src" onmouseout="if(MSFPhover) document['MSFPnav5'].src=MSFPnav5n.src"><img src="_derived/support.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Support" align="middle" name="MSFPnav5"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav6n=MSFPpreload("_derived/AboutUS.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav6h=MSFPpreload("_derived/AboutUS.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="AboutUS.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav6'].src=MSFPnav6h.src" onmouseout="if(MSFPhover) document['MSFPnav6'].src=MSFPnav6n.src"><img src="_derived/AboutUS.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="About Us" align="middle" name="MSFPnav6"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav7n=MSFPpreload("_derived/ext1008_cmp_Papyrus010_hbtn.gif"); MSFPnav7h=MSFPpreload("_derived/ext1008_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="http://www.laegroup.org/forum/index.php?board=9.0" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav7'].src=MSFPnav7h.src" onmouseout="if(MSFPhover) document['MSFPnav7'].src=MSFPnav7n.src"><img src="_derived/ext1008_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Forum" align="middle" name="MSFPnav7"></a><!--webbot bot="Navigation" i-checksum="42590" endspan --></a></p>
+		<div align="center">
+			&nbsp;<table border="1" width="97%" id="table1" bgcolor="#FFFFFF" cellpadding="4" style="border-collapse: collapse">
+				<tr>
+					<td>
+					<div align="justify">
+						<p align="justify"><font face="Arial" size="5">F.A.Q. (english 
+						version coming soon)</font></p>
+						<hr>
+						<p align="justify"><font face="Arial">
+						<span class="Stile1"><span class="Stile2"><strong>Perchè 
+						si chiama Ramsete?</strong><br>
+						Poichè è stato il primo software di simulazione acustica 
+						che ha utilizzato fasci piramidali, abbiamo pensato ad 
+						un nome che avesse una vaga attinenza con le piramidi 
+						egiziane. Ciononostante, Ramses II non costruì mai 
+						alcuna piramide...</span></span></font></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						<strong>Ramsete può essere usato anche all'aperto?</strong><br>
+						Sì, ma con tutte le precauzioni del caso; infatti 
+						Ramsete è nato come programma per interni e non tiene 
+						conto di effetti che, mentre all'interno sono del tutto 
+						trascurabili, all'esterno non lo sono affatto. Tali 
+						effetti includono effetto radente, gradiente termico, 
+						direzione del vento ecc.</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						<strong>Qual è il margine di errore di Ramsete nella 
+						valutazione della propagazione in ambiente aperto (limitatamente 
+						al calcolo di sorgenti e ricevitori posti a distanze di 
+						circa 100-150 metri) e considerando il valore globale 
+						del livello sonoro espresso in dB(A)?</strong><br>
+						L'errore cresce fortemente con la distanza.&nbsp; L'errore è 
+						inferiore a 2 dB(A) sino a circa 50 m, poi però cresce 
+						notevolmente, soprattutto in caso di propagazione 
+						radente su terreno pianeggiante. A 100 m è già 
+						dell'ordine dei 4-5 dB(A). Ramsete è sconsigliato per 
+						distanze maggiori di 100 m. A tale proposito si può 
+						consultare la&nbsp; pubblicazione dell'ing. Farina n. 140 
+						scaricandola dal sito (<a href="http://pcfarina.eng.unipr.it">http://pcfarina.eng.unipr.it</a>).</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						<strong>Quali sono i parametri internazionali da 
+						cambiare?</strong><br>
+						Bisogna scegliere come lingua l'inglese (Gran Bretagna) 
+						e impostare in tal modo come separatore decimale il 
+						punto (.) e come separatore di elenco il punto e virgola 
+						(;).</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						<strong>Come si fa a stampare una schermata di Ramsete?</strong><br>
+						Come una schermata di un qualsiasi programma. (Alt+Stamp) 
+						per catturare la schermata ed avere l'immagine nella 
+						clipboard; a questo punto si può incollare in un 
+						qualsiasi programma e stampare.</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						<strong>Quando bisogna dichiarare &quot;obstructing&quot; una 
+						parete?</strong><br>
+						In linea teorica va dichiarata &quot;obstructing&quot; una 
+						qualsiasi superficie che si trovi fra una sorgente ed un 
+						ascoltatore.</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">Se 
+						una parete non viene dichiarata &quot;obstructing&quot;, il 
+						programma non calcola la diffrazione attorno ai bordi 
+						liberi, nè l'energia che passa &quot;attraverso&quot; la faccia 
+						(ridotta per il suo potere fonoisolante).</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						<strong>Quante pareti obstructing si possono interporre 
+						tra una sorgente ed un ricevitore ?</strong><br>
+						Non c'è un limite, se non l'accrescimento del tempo di 
+						calcolo.</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						<strong>Come si imposta il calcolo della diffrazione di 
+						una barriera?</strong><br>
+						Ogni volta che una superficie dichiarata &quot;obstructing&quot; 
+						presenta un bordo libero viene automaticamente 
+						effettuato il calcolo della diffrazione, tenendo conto 
+						del minimo cammino possibile. Nella configurazione 
+						standard, l'algoritmo tiene conto al massimo di due 
+						diffrazioni in successione fra una sorgente ed un 
+						ricevitore. E' però possibile impostare &quot;diffrazioni 
+						infinite&quot;, o anche impostare solo un livello di 
+						diffrazione o anche zero (nessuna diffrazione viene 
+						calcolata)</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						<strong>Che cosa significa superficie &quot;monopermeable&quot;?</strong><br>
+						Una superficie dichiarata &quot;monopermeable&quot; ha 
+						caratteristiche simili a quelle di una &quot;obstructing&quot;, ma 
+						solo per l'onda diretta che la attraversa. Ciò significa 
+						che se si disegna una scatola composta da pareti 
+						&quot;monopermeable&quot; con dentro una sorgente, tutti i raggi 
+						emessi dalla sorgente verranno decrementati del potere 
+						fonoisolante proprio del materiale, ma invece di 
+						continuare a rimbalzare all'interno della scatola, i 
+						raggi usciranno senza più rientrarci.</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						<strong>Quanti ascoltatori bisogna inserire nella 
+						geometria per avere una mappatura corretta?</strong><br>
+						Per ottenere una mappatura corretta bisogna tenere conto 
+						che gli unici valori &quot;veri&quot; che il software mappa sono 
+						quelli in cui è presente un ricettore. Tutti gli altri 
+						sono ottenuti per interpolazione e quindi variando il 
+						metodo di interpolazione può variare anche la mappa. 
+						L'abilità sta quindi nel saper correttamente disporre 
+						gli ascoltatori nello spazio. La pratica suggerisce di 
+						predisporre un reticolo con passo costante aggiungendo 
+						qualche ascoltatore in prossimità di situazioni di 
+						discontinuità (p. es. barriere) e alla sorgente (in modo 
+						che non si creino dei falsi minimi fra la sorgente e 
+						l'ascoltatore più vicino). In campo completamente 
+						diffuso, invece, la densità di ascoltatori può 
+						progressivamente calare con la distanza dalla sorgente.</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						<strong>Con quale grado di precisione bisogna introdurre 
+						la geometria?</strong><br>
+						Viste le lunghezze d'onda in gioco in campo audio non 
+						conviene certamente introdurre particolari come la 
+						maniglia di una porta o gli intarsi di un capitello; 
+						tali dettagli servono solo ad appesantire il modello 
+						aumentando a dismisura il numero di superfici della 
+						geometria 3D. L'aumento del numero delle facce 
+						ovviamente si ripercuote sul tempo di calcolo. Inoltre 
+						bisogna tenere presente che la precisione del modello 
+						geometrico contribuisce sì all'accuratezza dei risultati 
+						ma solo se il numero di piramidi lanciate è così elevato 
+						che la divergenza geometrica al momento dell'impatto 
+						produce una sezione del fascio inferiore alle facce più 
+						piccole disegnate; altrimenti il tracciatore non si 
+						accorge dell'esistenza di facce tanto piccole e tale 
+						dettaglio non viene calcolato.</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						<strong>Come si fa a simulare l'isolamento di pareti 
+						multistrato?</strong><br>
+						Se il materiale è lo stesso su tutte e due le facce 
+						della parete basta attribuire al materiale il potere 
+						fonoassorbente del materiale esterno e come potere 
+						fonoisolante il potere fonoisolante complessivo di tutti 
+						gli strati. Infine è necessario dichiarare questa parete 
+						&quot;obstructing&quot;. Se la parete composta presenta invece 
+						sulle due facce materiali diversi bisognerà, oltre ad 
+						aver disegnato la parete come già detto, disegnarne una 
+						parallela a 10 cm di distanza nel materiale di finitura 
+						della seconda faccia. Tale seconda parete non deve 
+						essere dichiarata &quot;obstructing&quot; e quindi non ha 
+						importanza il potere fonoisolante attribuitole nel 
+						Material Manager.</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						<strong>Che differenza c'è fra &#945; ramsete ed &#945; sabine?</strong><br>
+						Ramsete, come la gran parte dei programmi di tipo &quot;ray 
+						tracing&quot;, richiede in ingresso i valori &quot;veri&quot; del 
+						coefficiente di assorbimento, non i valori &quot;di Sabine&quot;. 
+						I valori veri sono in generale più bassi di quelli di 
+						Sabine, ovvero i primi non superano mai uno, mentre i 
+						secondi sì. Questo è stato inizialmente studiato 
+						dall'ing. Olliaro del Politecnico di Torino (mi pare nel 
+						1996), ed in seguito da un gruppo di ricercatori inglesi 
+						(Steve Dance e colleghi), che hanno recentemente 
+						pubblicato una serie di tre articoli su Applied 
+						Acoustics. In sostanza, è risultato che i programmi 
+						basati sull'acustica geometrica richiedono in ingresso i 
+						coeff. di assorbimento di Millington, non di Sabine. A 
+						seguito della pubblicazione di tali studi, ho introdotto 
+						in Ramsete la conversione automatica fra valori di Alpha 
+						Sabine e valori di Alpha Millington. Quindi, se avete i 
+						valori di Alpha Sabine tratti da una prova ISO 354, li 
+						introducete nella maschera apposita di Material manager, 
+						e tali valori vengono automaticamente convertiti 
+						(ridotti) nei corrispondenti valori di Alpha Millington. 
+						Se viceversa avete dei valori di Alpha &quot;vero&quot;, ad 
+						esempio da misure con la tecnica intensimetrica (o in 
+						subordine con il tubo di Kundt), allora vanno introdotti 
+						nella maschera di &quot;Alpha Ramsete&quot;, ed essi verranno 
+						automaticamente trasformati nei corrispondenti valori di 
+						Alpha Sabine.</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						<strong>Che cosa è il parametro &#948;?</strong><br>
+						Il parametro &#948; è il coefficiente di &quot;scattering&quot;, 
+						definito dalla nuova norma ISO sviluppata da Vorlander e 
+						Rindell. Si veda l'articolo di Vorlander e Mommertz su 
+						Acustica di Dicembre 2000. Sullo stesso volume c'è anche 
+						un mio articolo, che spiega dettagliatamente come il 
+						coefficiente di scattering è stato introdotto in 
+						Ramsete. In sostanza, è il rapporto fra energia riflessa 
+						in direzione non speculare e l'energia riflessa totale. 
+						Per superfici lisce normali (intonaco, cemento, 
+						pavimento, etc.) il valore standard 0.1 va bene. Per 
+						superfici più &quot;mosse&quot;, si possono avere valori più 
+						elevati (sino a 0.5). Valori maggiori di 0.5 possono 
+						essere ottenuti solo con speciali pannelli diffondenti, 
+						usati negli studi di registrazione o nei teatri, nel 
+						qual caso i valori del coefficiente di scattering 
+						vengono normalmente forniti dal costruttore dei 
+						pannelli.</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						<strong>Come si fa a &quot;tarare il modello&quot;?</strong><br>
+						La taratura del modello è forse la parte più difficile e 
+						delicata del programma in quanto implica conoscenze di 
+						base che vanno dalla metodologia di misura del locale 
+						reale alla corretta scelta dei materiali nel data base 
+						di Ramsete (o alla reperibilità di certificati di prova) 
+						alla corretta interpretazione dei risultati elaborati 
+						dal software. Non ultimo l'aver disegnato correttamente 
+						la geometria con il giusto compromesso fra numero di 
+						facce ed accuratezza del modello 3d inserito. 
+						Normalmente per la taratura del modello può occorrere 
+						fino al 90% del tempo dell'intero lavoro. Purtroppo, 
+						soprattutto nella fase iniziale e ancora di più le prime 
+						volte che si usa il programma, la precisione dei 
+						risultati dipende quasi totalmente dai dati in ingresso 
+						(geometria, sorgente, materiali....) e l'errore che si 
+						può commettere è di gran lunga superiore all'accuratezza 
+						del programma. Con l'esperienza si riusciranno ad 
+						ottenere ottime convergenze con i casi reali utilizzando 
+						quasi sempre i materiali di default e senza essere 
+						costretti ad inventare materiali con coefficienti di 
+						assorbimento tali per cui il tempo di riverberazione 
+						misurato risulti uguale a quello calcolato. Questa 
+						forzatura, per quanto possibile, va evitata.</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						<strong>Quali sono i valori corretti di alfa e beta?</strong><br>
+						La taratura di Alfa e Beta è una strana storia, la 
+						domanda ci è stata fatta più volte. Precisiamo due 
+						fatti:<br>
+						a) lanciando molte piramidi, allorchè il tempo critico 
+						ecceda la lunghezza della risposta all'impulso, non c'è 
+						più alcuna correzione della coda da fare, e quindi Alfa 
+						e Beta sono ininfluenti. Con i computer veloci di oggi, 
+						capitano sovente casi semplici nei quali si possono 
+						lanciare 64.000 piramidi in poche decine di secondi, ed 
+						il problema è risolto;<br>
+						b) se l'ambiente non ha forme strane o geometrie 
+						complesse, ma la solita, classica sala o aula o teatro, 
+						allora l'ambiente è Sabiniano, e quindi Alfa vale 2 e 
+						Beta 0.1, e non c'è un reale bisogno di taratura.</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">Se 
+						non siamo in nessuno dei due casi suddetti, allora vale 
+						la pena di fare la taratura di Alfa e Beta. Ad esempio 
+						potremmo essere in un ambiente industriale basso e 
+						vasto, con ostacoli &quot;obstructing&quot; qua e là. Il trucco è 
+						il seguente: siccome al crescere del numero di piramidi 
+						si ottiene una risposta indipendente da Alfa e Beta, 
+						occorre fare due simulazioni, utilizzando un'unica 
+						sorgente ed un ridotto numero di recettori (così il 
+						calcolo è veloce), una con molte piramidi (ad esempio 
+						64000) e l'altra con il numero di piramidi che si 
+						intende poi utilizzare nelle simulazioni normali (quelle 
+						con molte sorgenti e ricevitori, che dunque non possono 
+						essere fatte con 64000 piramidi) - ad esempio 2048. 
+						Fatte queste due simulazioni (con nomi diversi, 
+						ovviamente), si apre AlfaBeta Optimizer, si caricano i 
+						risultati delle due simulazioni, e si &quot;editano&quot; a mano i 
+						valori di Alfa e Beta finchè le due curve (rossa e blu) 
+						non sono sovrapposte. Non bisogna preoccuparsi di quello 
+						che accade nella parte troppo tardiva della coda sonora 
+						(che tanto con poche piramidi è sempre incerta), occorre 
+						invece ottimizzare l'aderenza delle due curve nella 
+						parte più importante della risposta all'impulso, cioè 
+						nei primi 20 - 25 dB di decadimento.</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						<strong>Quante piramidi bisogna sparare per ottenere un 
+						risultato affidabile?</strong><br>
+						Solo pochi anni fa con la limitata potenza di calcolo 
+						dei computer, si doveva far ricorso ad espedienti quali 
+						la taratura di alfa e beta ora descritta. Oggi come oggi 
+						si può lavorare fin dall'inizio con un livello 7 o 8 
+						senza per questo essere costretti ad attese di più di un 
+						minuto. se questo accade o si è in presenza di casi 
+						particolari o si è ecceduto nell'accuratezza della 
+						geometria o si è commesso qualche errore.</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						<strong>Si può mappare su piani diversi dal piano 
+						orizzontale?</strong><br>
+						Sì, anche su quello verticale e laterale, ma ovviamente 
+						anche gli ascoltatori devono essere disposti di 
+						conseguenza.</font></p>
+						<p align="justify" class="Stile1"><b><font face="Arial">
+						Dovendo verificare l'attenuazione complessiva di una 
+						cabina insonorizzata che presenta aperture di ingresso 
+						ed uscita del materiale, qual è la dimensione minima 
+						della cabina che posso utilizzare affinchè i calcoli 
+						siano attendibili?</font></b></p>
+						<p align="justify" class="Stile1"><font face="Arial">Non 
+						esiste una dimensione minima, ma bisogna tener presente 
+						che per cabine piccole, è il concetto di &quot;potere 
+						fonoisolante&quot; che va in crisi. Ad esso si deve 
+						sostituire il concetto di &quot;perdita di inserzione&quot;, che 
+						non è altrettanto facilmente determinabile (in quanto, 
+						per un certo tipo di pannello, dipende anche da forma e 
+						dimensioni della cabina). Se il corretto valore della 
+						perdita di inserzione viene assegnata come &quot;R&quot;, il 
+						calcolo è corretto anche per cabine molto piccole.</font></p>
+						<p align="justify" class="Stile1"><font face="Arial"><b>
+						Dovendo valutare gli effetti della diffrazione, quanti 
+						bordi di strutture geometriche considera Ramsete nel 
+						calcolo?</b><br>
+						Il numero massimo di diffrazioni successive standard è 
+						due, questo numero può essere impostato anche a 0, 1 o 
+						infinito.</font></p>
+						<p align="justify" class="Stile1"><b><font face="Arial">
+						Sarebbe utile avere nella finestra del Ray Path anche il 
+						calcolo del tempo di ritardo tra onda sonora diretta e 
+						successive.</font></b></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						Tale parametro, denominato ITDG, veniva calcolato nelle 
+						versioni precedenti di Ramsete (era persino possibile 
+						farne la mappatura). La sua visualizzazione è stata 
+						disattivata, poichè la maggior parte degli utenti pareva 
+						interpretarlo in modo improprio (allo stesso modo, è 
+						stata disattivata la visualizzazione di T60).</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						<strong>Dove posso trovare una spiegazione esaustiva dei 
+						vari parametri che il Ramsete View calcola (D, Tbar, 
+						C80, C50, Aeq, ....)?</strong><br>
+						Esistono alcune belle pubblicazioni di Carmine Ianniello 
+						sulla Rivista Italiana di Acustica che descrivono questi 
+						parametri. In alternativa, può consultare il par. 3.2 
+						della pubblicazione n. 105 del prof. Angelo Farina (sul 
+						sito http://pcfarina.eng.unipr.it).</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						<strong>E' normale che Ramsete2 non mappi il T60?</strong><br>
+						Le &quot;vecchie&quot; versioni di Ramsete visualizzavano il 
+						valore di T60, oltre che di T20, T30, etc. La maggior 
+						parte degli utenti, tuttavia, si lamentava perchè i 
+						valori di T60 non &quot;tornavano&quot; con le misure sperimentali 
+						nella stessa sala. La realtà è che non si misura mai 
+						T60: secondo la norma ISO 3382/1997, le grandezze 
+						&quot;standard&quot; da misurare sono T20 e T30. In conseguenza a 
+						ciò, abbiamo rimosso la visualizzazione del parametro 
+						T60, che generava solo confusione. Tutti usano 
+						solitamente T30 (sia in fase di misura, sia di calcolo), 
+						anche se alcuni lo &quot;ribattezzano&quot; impropriamente T60. Se 
+						comunque vuole avere accesso ai valori di T60 &quot;veri&quot;, 
+						essi continuano ad essere salvati nel file che contiene 
+						tutti i parametri acustici (quello con estensione .-_A, 
+						per intenderci) . E' un normale file ASCII, importabile 
+						in Excel, che compendia tutti i risultati del calcolo. 
+						Entro tale file, i valori di T60 sono l'ultimo blocco di 
+						dati in fondo. Causa uno stupido errore di copia-incolla 
+						delle righe di programma, tale blocco è indicato 
+						erroneamente come T30 (come il blocco superiore, che 
+						contiene davvero T30), mentre invece dovrebbe esserci 
+						scritto T60. Continuo a non capire a cosa serva 
+						visualizzare i valori di T60, è un parametro privo di 
+						alcuna utilità pratica. Mapparlo, poi, non serve proprio 
+						a niente, T60 (ed anche T20, T30) sono parametri che non 
+						hanno variazione spaziale (se non causata da errorini di 
+						calcolo), essi assumono lo stesso valore in tutta la 
+						sala...</font></p>
+						<p align="justify" class="Stile1"><font face="Arial">
+						<strong>Nell'utilizzo del Creator BZ è possibile che a 
+						fronte di una potenza elettrica di 500 w in Bz7, con 
+						tutte le frequenze attive, ottenga Lw di 1.7 dB con una 
+						sensitività di 95.5 dB/w/m?</strong><br>
+						Va chiarito che il modulo &quot;Create Source BZ&quot; è 
+						assolutamente obsoleto, verrà rimosso nella prossima 
+						release di Ramsete. La gran parte degli utilizzatori, 
+						infatti, lo usa del tutto a sproposito. Tale modulo non 
+						effettua alcun calcolo, è l'utilizzatore che deve 
+						introdurre in esso i valori opportuni di tutti i 
+						parametri acustici della sorgente sonora. La potenza 
+						elettrica in W non entra in alcun calcolo, uno può 
+						scrivere qualunque numero in tale cella, ed il risultato 
+						acustico non cambia (è una sorta di documentazione delle 
+						caratteristiche della sorgente, come il nome del 
+						costruttore, il modello, l'impedenza elettrica e la 
+						sensitività). Il calcolo si basa unicamente sui valori 
+						di potenza sonora (come è corretto che sia) e di 
+						direttività, che debbono venire specificati dall'utente 
+						nel caso si utilizzi il modulo Create Source BZ. Io 
+						comunque le consiglio di NON utilizzare tale modulo, ed 
+						impiegare invece l'ISO3744/46, oppure la nuova opzione 
+						di interpolazione delle curve di direttività 
+						(Interpolate Polar). In questo secondo caso, occorre 
+						comunque specificare poi manualmente i livelli di 
+						potenza in ogni banda di ottava. Se essi non sono 
+						dichiarati dal costruttore dell'altoparlante, ma si 
+						conosce solo per ciascuna banda d'ottava: <br>
+						- potenza elettrica nominale W in watt <br>
+						- sensitività S in dB/1W,1m sull'asse <br>
+						- efficienza </font><font face="Symbol">h</font><font face="Arial"> 
+						in percentuale <br>
+						- fattore di direttività Q <br>
+						Occorre operare manualmente il calcolo dei livelli di 
+						potenza . La formula è la seguente: <br>
+						Lw = S - 10logQ +10log(W*</font><font face="Symbol">h</font><font face="Arial">/100)
+						<br>
+						Se anzichè il fattore di direttività Q è nota la 
+						direttività D in dB, la formula diventa: <br>
+						Lw = S - D +10log(W*</font><font face="Symbol">h</font><font face="Arial">/100)
+						<br>
+						Si potrebbe anche pensare di introdurre tale formulino 
+						nella mascherina di Ramsete in cui si introducono le 
+						curve di direttività, ma essendo la stessa banale, 
+						abbiamo preferito lasciare all'utente di calcolare il 
+						corretto valore di Lw. Ramsete non ha la pretesa di 
+						sostituirsi ad un manuale di acustica, è solo uno 
+						strumento per fare la parte pallosa dei calcoli, e si 
+						presume che venga usato come ausilio alla progettazione 
+						acustica, non come una &quot;black box&quot; che pensa a tutto... 
+						Non è un &quot;sistema esperto&quot;, ma un software tecnico che 
+						va &quot;condotto per mano&quot; da un tecnico acustico.</font>&nbsp;
+						</p>
+						<p align="justify" class="Stile1">&nbsp;</p>
+						<p align="justify" class="Stile1"><strong>Non funziona 
+						nel Modulo ISO3744-ISO 3746 la scelta delle superfici di 
+						misura: si riesce ad aprire solo il parallelepipedo a 9 
+						e l'emisfera a 10. Saltuariamente (1 volta soltanto 
+						anche il parallelepipedo a 5). </strong></p>
+						<p class="Stile1">A me la tendina funziona 
+						correttamente, a parte il fatto che compaiono 2<br>
+						volte tutte le &quot;entry&quot; della ListBox. Comunque, 
+						selezionando le prime in<br>
+						alto, funzionano tutte 4 (5, 8, 9 e 10). Non funziona se 
+						si seleziona la<br>
+						&quot;seconda volta&quot; cioe' le entry ripeture in basso 
+						(ripeto, non so perchè<br>
+						appaiano ripeture due volte, ma sono le prime quelle 
+						buone).<br>
+						<br>
+						<strong>Nella possibilità User posso importare un file 
+						fatto da me, ne ho provato a fare uno solo di ricettori 
+						(8) ed invece di aprirmelo mi ha aperto la superfice 
+						conforme ad 8 (è una coincidenza?) ? Ne ho fatto uno a 4 
+						e va bene. Mi permette poi anche di cambiare i valori di 
+						2a 2b e c. Ne tiene effettivamente conto anche se 
+						automaticamente mi ha letto quelli del file ray?</strong><br>
+						Se il numero di microfoni è pari a 5, 8, 9 o 10, 
+						ovviamente il programma<br>
+						visualizza le geometria standard-ISO per il 
+						corrispondente numero di<br>
+						microfoni. Il caso &quot;user&quot; si applica ad un n. di 
+						microfoni DIVERSO da 5, 8,<br>
+						9 o 10.<br>
+						<br>
+						<strong>Nella maschera info del sound manager ci sono:<br>
+						<br>
+						a) Power Level, Directivity, Sensitivity, Impedance, 
+						Efficiency.<br>
+						<br>
+						Prima di tutto ignorante in elettroacustica vorrei 
+						sapere se mi può spiegare l'uso della Sensibilità, 
+						dell'Impedenza elettrica e dell'efficienza % delle 
+						casse.Che legame c'è con Lw? A cosa mi possono servire? 
+						Perchè per tutti i diffusori che ho aperto la 
+						Sensitivity è uguale alle differenti frequenze?<br>
+						Non è Lp a 1 m di fronte se applico solo 1 Watt di 
+						potenza? La potenza dei diffusori indicata è al massimo 
+						della potenza oppure ai watt ricavabili<br>
+						dalla Sensibilità? Faccio fatica a capire i Baloon di 
+						direttività: vanno da 50 a 0 per 50 si intende 
+						semplicemente il massimo di emissione?</strong></p>
+						<p class="Stile1">a) I &quot;dati di targa&quot; degli 
+						altoparlanti sono indicati per compatibilità con i 
+						data-base degli altoparlanti di programmi similari 
+						(EASE, Modeler), e non hanno alcun effetto sui calcoli. 
+						Semplicemente, importando i files dati dei costruttori 
+						di altoparlanti, se essi contengono tali dati, Ramsete 
+						li visualizza. L'unico dato che Ramsete utilizza è il 
+						livello di potenza sonora Lw. Il balloon di direttività 
+						contiene valori del fattore di direttività Q, che 
+						dovrebbe essere un numero maggiore o minore di 1. Il 
+						valore medio su tutta la sfera è sempre 1. Non è 
+						limitato superiormente, sicuramente possono esistere (in 
+						teoria) valori di Q maggiori di 50, anche se a me non 
+						sono mai capitati.<br>
+						<br>
+						<strong>b)Ho provato a usare l'emisfera (r=1m)a 10 punti 
+						e&nbsp; ottengo immettento 80 dB in tutti i punti un Lw di 88 
+						dB. Così come ottenibile dalla ISO 3744. La direttività 
+						invece in ogni punto per la ISO 3744 è Q=1 con indice 
+						D=0.<br>
+						Ramsete mi indica invece una Directivity ad ogni 
+						frequenza (Q?)=1.34. Prima di tutto cosa si intende? per 
+						che gradi, la direzione principale di emissione 
+						(qual'è?). Nella finestra Directivity Data c'è tabella 
+						con angoli<br>
+						da 0° a 350° (piano xy con lo zero asse x ed il 90 asse 
+						y) in colonna ed angoli da 0° a 170° in righe (l'asse z 
+						corrisponde ai 90°) ed ho notato che per ogni banda 
+						Directivity è Q nell'angolo di massima emissione per 
+						quella banda. Comunque questa differenza di 0.34 fà 
+						parte del diverso modo di calcolare direttività di 
+						Ramsete come indicato nel manuale?<br>
+						Il problema è però che se uso superficie parallelepipeda 
+						e faccio la stessa cosa (r=1m questa volta diventa 
+						direttività 1.65 nei punti di massima emissione e 0.2 in 
+						altri. La media è più o meno 1. Se aumento il volume<br>
+						della superficie di misura diventa 1.86 etc...<br>
+						<br>
+						Nel manuale c'è scritto che usando i dati di direttività 
+						di Ramsete e la potenza ISO 3744 i risultati sono 
+						corretti. La potenza indicata in info devo quindi 
+						ritenere essere quella ISO 3744 e non preoccuparmi di 
+						questi dati di direttività differenti alle mie 
+						aspettative?</strong></p>
+						<p class="Stile1">b) Il modulo ISO3746 fornisce valori 
+						di Lw esattamente conformi alle prescrizioni ISO. I 
+						valori di direttività vengono poi aggiustati in modo 
+						che, nei punti di misura, torni corretto il valore del 
+						livello di pressione sonora misurato. Ciò causa sovente 
+						valori &quot;strani&quot; del fattore di direttività, ma sono quei 
+						valori che fanno venire giusto il calcolo in ciascun 
+						punto, e pertanto vanno tenuti cosi' come sono.... In 
+						sostanza, la direttività viene &quot;stretchata&quot; per 
+						rappresentare su una superficie finita l'emissione di 
+						una macchina estesa, mentre il modello impiegato è 
+						quello<br>
+						della sorgente puntiforme. Questo richiede di 
+						&quot;deformare&quot; il balloon di direttività affinchè nei punti 
+						dei microfoni si abbia corrispondenza fra livello 
+						misurato e livello calcolato da Ramsete.<br>
+						<br>
+						<strong>Se volessi fare misura a sorgente in un angolo o 
+						tra due piani riflettenti e volessi quindi costruirmi 
+						una superficie user.<br>
+						Ho chiesto a Galaverna e mi ha detto che la norma non lo 
+						consente e quindi neppure il programma. In realtà io ho 
+						riguardato le norme ed al punto 7.2.1. le 7.3.1 le 
+						contemplano. Ho provato con il file allegato 2pianirefl. 
+						a fare un user .ray con 2a=2 2b=4 e c=2 seguento i punti 
+						della figura c7 della iso 3746. Il programma mi 
+						riconosce 2a=1 invece che 2 ed in più al momento del 
+						calcolo (&quot;ok proceed&quot;) mi richiama ancora il 
+						parallelepipedeo a 9 punti. In pratica non funziona. E 
+						non deve essere solo perchè l'origine è non simmetrica 
+						rispetto al piano xy della superficie in quanto questo 
+						difetto succede anche con altri user .ray.</strong></p>
+						<p class="Stile1">Ramsete non considera sorgenti poste 
+						contro una parete verticale, perchè in tale condizione è 
+						impossibile determinare il balloon di direttività. Si 
+						può sì determinare il livello di potenza secondo le 
+						norme ISO, ma conoscere<br>
+						la potenza senza la direttività serve a poco in un 
+						programma come Ramsete....<br>
+						<br>
+						<strong>Mi può fare un esempio semplice di utilizzo di 
+						superfici monopermeabili?</strong><br>
+						Si usa una superficie monopermeabile allorchè la 
+						sorgente è &quot;grossa&quot; rispetto all'ambiente in cui essa è 
+						installata, e conseguentemente, una volta che i raggi 
+						sono stati emessi e cominciano a rimbalzare qua e là, 
+						essi hanno rilevante probabilità di venire deviati 
+						dall'ingombro della sorgente stessa.<br>
+						<br>
+						<br>
+						<br>
+						<strong>Ogni volta che avvio il software mi chiede di 
+						abilitare la chiave hardware</strong>.</p>
+						<p class="Stile1">Quale software? Ramsete è composto di 
+						6 eseguibili diversi: Source manager, material manager, 
+						ramsete cad, ramsete Tracer, Ransete View, Audio 
+						converter. Inoltre, non mi pare che alcuno di questi 
+						programmi chieda di abilitare la chiave. Essi 
+						semplicemente cercano una chiave già abilitata, e, se 
+						non la trovano, dicono qualcosa tipo &quot;Maybe You forgot 
+						the dongle. Do You want to retry? Yes/No&quot; or &quot;Hey! You 
+						forgot to connect the dongle! Abort/Retry/Ignore&quot;. 
+						Questi messaggi indicano che la chiave hardware (dongle) 
+						o non è fisicamente inserita nella porta USB (o nella 
+						parallela, se avete ancora una di quelle vecchie), 
+						oppure che i relativi drivers di sistema non sono 
+						installati...</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1"><strong>Quando lancio l’applicativo 
+						“Material Manager” – avendo anche cambiato le 
+						impostazioni internazioni – non mi compare alcun 
+						materiale – mi sembrava di aver capito dalla lettura del 
+						manuale che ci fossero dei materiali già inseriti - e 
+						comunque non riesco a capire come poter inserire altri 
+						nuovi materiali.</strong></p>
+						<p class="Stile1">Il programma Material manager cerca 
+						anch'esso la chiave hardware. Se non la trova, dice 
+						anzitutto: &quot;Hey! You forgot to connect the dongle! 
+						Abort/Retry/Ignore&quot;. Se uno dà &quot;ignore&quot;, allora lui dice 
+						&quot;Sorry, Your program is not properly registered! Please 
+						fill the User= and Reg= lines at the beginning of the 
+						ramsete.ini file&quot;. Questo messaggio è per gli utenti di 
+						Ramsete 1.0, che non erano in possesso di chiavi 
+						programmabili, ma avevano chiavi (nere) prive della 
+						personalizzazione con nome utente registrato entro la 
+						chiave stessa. In tale caso, era necessario che il 
+						programma venisse &quot;registrato&quot;, inserendo username e 
+						codice di registrazione nelle prime due righe di 
+						ramsete.ini. Con le chiavi hardware nuovo tipo (bianche, 
+						o USB), invece, la registrazione dell'utente viene fatta 
+						direttamente dalla Spectra, programmando la chiave 
+						hardware tramite l'apposito programmino chiamato Dongle 
+						Manager. Esso consente di &quot;bruciare&quot; la memoria della 
+						chiave hardware, incidendo permanentemente nella stessa 
+						il nome utente ed il suo codice di registrazione. Questa 
+						operazione va fatta solo una volta, &nbsp;quando la chiave è 
+						nuova (vergine). Una volta programmata, non c'è bisogno 
+						di farla mai piu'.... <br>
+						Il programma Dongle manager, comuqnue, puo' essere usato 
+						per verificare che la chiave funzioni e sia già stata 
+						correttamente programmata. <br>
+						Se, lanciandolo, appare nella prima riga il vostro 
+						nome/cognome, allora la chiave è già programmata. Se non 
+						appare, allora o la chiave non è programmata, oppure i 
+						drivers della chiave non sono installati 
+						correttamente.... <br>
+						Superato il problema di riconoscimento della chiave, 
+						vedrete che Material manager si apre senza alcun 
+						messaggio di errore. <br>
+						Poi, clickando sul bottone indicato come &quot;load 
+						materials&quot;, viene aperto il file di testo ramsete.mat, 
+						che contiene la lista di materiali predefiniti, e che è 
+						possibile personalizzare usando Material Manager (o 
+						anche un normale editor di testi, visto che tutti i 
+						files di Ramsete sono normali files ASCII non criptati). 
+						Se cosi' facendo compare un messaggio di errore, oppure 
+						la lista dei materiali è vuota, puo' darsi che abbiate 
+						per errore cancellato o rovinato il file ramsete.mat 
+						dalla directory di ramsete. Controllate nella directory 
+						di ramsete, e provate ad aprirlo con il Notepad (Blocco 
+						Note nei Windows italiani). <br>
+						Se compare qualcosa come qui sotto (notare l'uso dei 
+						punti e delle virgole), allora il file è a posto: <br>
+						&nbsp;&nbsp;0&nbsp; 
+						Nessuno&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+						,&nbsp;&nbsp;&nbsp; 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+						0.000 0.000<br>
+						&nbsp; 1&nbsp; intonaco calce 
+						(s.r.)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ,&nbsp;&nbsp;&nbsp; 
+						0.030 0.060 0.060 0.060 0.060 0.070 0.090 0.140 0.230 
+						0.280<br>
+						&nbsp; 2&nbsp; intonaco 
+						ruvido&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+						,&nbsp;&nbsp;&nbsp; 0.010 0.010 0.020 0.030 0.040 0.050 0.040 0.030 
+						0.020 0.020 <br>
+						Altrimenti, dovete rimetterne uno a posto nella 
+						directory di ramsete. Potete trovare il file ramsete.mat 
+						originale dentro il file CAB di installazione di 
+						Ramsete, oppure potete scaricarlo dal sito di Ramsete:
+						<br>
+						<a href="http://www.ramsete.com/Public/Ramsete/Italian_MAT">
+						HTTP://www.ramsete.com/Public/Ramsete/Italian_MAT</a>
+						</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1"><strong>Alcune volte anche dopo avere 
+						inserito la password nel lancio di alcuni applicativi – 
+						Source Manager ecc. – mi chiede di abilitare la chiave.</strong></p>
+						<p class="Stile1">Non capisco dove cavolo inseriate la 
+						password. Non c'è alcuna password da inserire, se non 
+						durante l'installazione dell'EXE autoscompattante, 
+						quando lo si scarica dal sito
+						<a href="http://www.ramsete.com">www.ramsete.com</a>. Se 
+						Source Manager non vede la chiave, darà il solito 
+						messaggio di errore del tipo &quot;Hey! You forgot to&nbsp;connect 
+						the dongle! Abort/retry/Ignore&quot;. In nessun caso viene 
+						mai chiesto di fornire una password, nè di abilitare la 
+						chiave... La chiave avrebbe già dovuto essere abilitata 
+						dalla Spectra, la prima volta, oppure la dovevate 
+						abiliatre Voi (nel qual caso, la Spectra avrebbe dovuto 
+						comunicarvi username e n. di attivazione, per poter 
+						progranmare voi la chiave con il programma Dongle 
+						Manager). </p>
+						<p class="Stile1">Alla base di tutto, comunque, a me 
+						sembra che non abbiate installato correttamente i 
+						drivers per la vostra chiave hardware. <br>
+						Il programma di installazione dei drivers avrebbe dovuto 
+						esservi stato fornito assieme alla chiave stessa. 
+						Comunque, lo potete scaricare dal sito di ramsete: <br>
+						<a href="http://www.ramsete.com/Ramsete/smartkeydrv.htm">
+						http://www.ramsete.com/Ramsete/smartkeydrv.htm</a> <br>
+						Ovviamente, installate il driver corrispondente alla vs. 
+						chiave (parallela o USB) ed al vostro sistema operativo.
+						</p>
+						<p class="Stile1">Ripartendo da zero, la corretta 
+						procedura di installazione avrebbe dovuto essere: <br>
+						1) Si installano i drivers della chiave hardware <br>
+						2) Si inserisce la chiave e si aspetta che essa venga 
+						riconosciuta dai drivers (compare il messaggio &quot;il nuovo 
+						hardware è installato e funzionante&quot;) <br>
+						3) Si installa Ramsete <br>
+						4) Si prova ad aprire il Dongle Manager: se compare il 
+						vs. nome, la chiave è già programmata. Se non compare, 
+						occorre inserire nome, codice di attivazione, 
+						specificare la corretta versione di ramsete (Lite, 1.xx, 
+						2.xx), e procedere con l'attivazione. <br>
+						Se aprendo il Dongle Manager compare la scritta &quot;demo&quot;, 
+						grigia e non editabile, vuol dire che la chiave non 
+						viene riconsociuta dal sistema. O i drivers non sono 
+						installati, oppure la chiave non è inserita 
+						correttamente, o infine è difettosa. <br>
+						5) A questo punto conviene settare, una volta per tutte, 
+						i parametri internazionali. Anzichè cambiare solamente 
+						la virgola con il punto decimale, si consiglia di 
+						settare tutta la macchina con le impostazioni generale 
+						&quot;Inglese - Gran Bretagna&quot;. <br>
+						6) si possono finalmente eseguire i programmi del 
+						pacchetto ramsete, che dovrebbero a questo punto partire 
+						senza piu' lamentarsi della mancanza della chiave 
+						hardware... </p>
+						<p class="Stile1">Mi faccia sapere se le indicazioni 
+						suddette le hanno consentito di risolvere il problema, e 
+						se, come immagino, esso fosse in realtà causato dal 
+						mancato riconoscimento della chiave hardware.... <br>
+						Saluti </p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1"><strong>Purtroppo però mi scontro con 
+						un problema che pare insormontabile, e cioè non funziona 
+						il collegamento con il mio Surfer v. 8.02.</strong></p>
+						<p class="Stile1"><strong><em>Run-time error 
+						‘-2147024893 (80070003)’</em></strong><br>
+						<strong><em>Automation error</em></strong></p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1">Non funziona no!<br>
+						L'attuale versione di Ramsete (2.1) è tuttora 
+						compatibile solo con le versioni Surfer sino alla 7.03. 
+						La versione 8.xx di Surfer è uscita&nbsp;DOPO la release di 
+						Ramsete 2.1, e poichè la Golden Software ha eliminato 
+						l'interfaccia DDE (considerata ormai obsoleta) 
+						preferendo al suo posto l'interfaccia COM, detta anche 
+						Automation&nbsp;(considerata piu' moderna dalla microsoft), 
+						Ramsete non riesce ad utilizzarlo... <br>
+						Vi consiglio pertanto di installare una copia del 
+						&quot;vecchio&quot; Surfer 7, che funziona senza problemi con 
+						Ramsete. Mi risulta che non ci siano problemi a far 
+						convivere due installazioni di Surfer (7 ed 8) sulla 
+						stessa macchina, purchè vengano fatte in directory 
+						diverse. Non so se è meglio installare prima la 7 e poi 
+						la 8, o viceversa... <br>
+						Alla peggio, lasciate installato solo Surfer 7 (io ho 
+						Surfer 8, ma ancora non ho capito cosa faccia &quot;in piu'&quot; 
+						di Surfer 7 - secondo me, niente!), come faccio io sulla 
+						mia macchina &quot;da lavoro&quot; - per analoghi motivi, pur 
+						avendoli, io NON uso Office 2003, Autocad 2005, 
+						WindowsXP SP2, etc.. Invece uso Office 2000, Autocad 
+						2000 e Windows 2000 professionale, e verifico ogni 
+						giorno che vanno meglio delle versioni piu' recenti....
+						<br>
+						Analogamente, pur avendo le ultime release del 
+						compilatore microsoft, I continuo ad usare Visual&nbsp;Studio 
+						v. 6.0, che secondo me aveva toccato l'apice di 
+						stabilità e performance, cosa che non si puo' dire certo 
+						delle successive versione di&nbsp;Visual Studio&nbsp;.NET.... </p>
+						<p class="Stile1">La prossima release di Ramsete (2.2, 
+						prevista per il 1 gennaio 2005) risolverà comunque 
+						questo problema, pilotando correttamente anche Surfer 8 
+						tramite il nuovo protocollo di interfaccia. <br>
+						Non capisco però una cosa. Surfer 8 lo avevate già per 
+						conto vostro, o ve lo ha venduto la Spectra assieme a 
+						Ramsete ??? <br>
+						Loro sanno benissimo che Surfer 8 non è piu' compatibile 
+						con Ramsete, avrebbero dovuto vendervi un Surfer 7.....
+						<br>
+						O vendervi un Surfer 8 e darvi assieme una copia di 
+						Surfer 7.... <br>
+						Se invece Surfer lo avete preso separatamente per conto 
+						vostro, allora è chiaro che la Spectra non ha 
+						responsabilità per il casino successo. </p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1"><strong>Si osserva che, impostando nel 
+						calcolo il parametro history differente da 0,&nbsp;il livello 
+						diretto&nbsp;Ldir è influenzato dalla presenza di superfici; 
+						nell'esempio allegato è riportato il calcolo in presenza 
+						ed in assenza di una&nbsp;superficie (rispettivamente 
+						cbeness-03-4.ray e cbeness-03-5.ray); come viene 
+						calcolato nei due casi Ldir? ( i livelli Ldir per i 
+						ricettori 2 e 3 in presenza della superficie sono 
+						stranamente coincidenti); il calcolo del livello diretto 
+						Ldir ha senso solo con parametro history pari a 0?</strong></p>
+						<p class="Stile1">Che senso ha History =0? I raggi non 
+						vengono tracciati proprio!<br>
+						History dovrebbe sempre stare a -1 (cioè infinito), in 
+						modo che i raggi vengano seguiti per tutta la loro 
+						storia...<br>
+						Dopodichè. si regola la lunghezza del tracciamento 
+						delimitando la lunghezza delle risposte all'impulso da 
+						calcolare, che deve essere pari alla massima corsa che 
+						si vuol lasciare fare ai raggi...<br>
+						Bisogna anche scegliere una risoluzione temporale 
+						ragionevole, se si vuole separare correttamente il suono 
+						diretto dalla prima riflessione. Se la superficie è 
+						vicina, il suono riflesso arriverà con un ritardo di 
+						soli 2-3 ms dal suono diretto. Per separarli, debbo 
+						usare delle classi temporali di 1ms. Se imposto dellle 
+						classi di 10ms, allora è chiaro che nella prima di esse 
+						si accumulerà sia l'energia del suono diretto, sia 
+						quella della prima riflessione...</p>
+						<p class="Stile1"><strong>Come viene calcolato il Rasti?</strong></p>
+						<p class="Stile1">Il Rasti viene calcolato dalla matrice 
+						dei valori di MTF (Modulation Transfer Function). 
+						Ciascun valore di MTF viene a sua volta calcolato come 
+						prodotto di due fattori. Il primo fattore è calcolato 
+						dalla risposta all'impulso, secondo il metodo di 
+						Schroeder, ed il secondo dal rapporto S/N 
+						(segnale-rumore), semprechè uno abbia inserito tali 
+						informazioni. Se uno invece ha clickato &quot;ignore&quot;, il 
+						rumore di fondo viene ignorato e resta solo il primo 
+						fattore. Il passaggio dalla matrice di MTF al valore di 
+						STI complessivo (o di RASTI, che è lo stesso, usando 
+						solo le 2 frequenze di 500 e 2000 hz, anzichè tutte - Il 
+						RASTi fa schifo, non lo si usa piu' da anni) è descritto 
+						nella norma IEC che allego.<br>
+						Potete anche guardare i miei ultimi articoli sulla 
+						misura di&nbsp;STI con metodo combinato (risposta all'impulso 
+						+ rumore di fondo), che sono scaricabili dal mio sito 
+						internet.</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1"><strong>Ho creato tramite Source 
+						Manager una sorgente secondo la ISO 3744.Dopodichè l'ho 
+						inserita nel disegno del progetto in Ramsete CAD. 
+						Innanzitutto, che cosa significano le coordinate di 
+						target che vengono richieste nella fase di inserimento 
+						della sorgente nel progetto? In secondo luogo, come 
+						viene orientata di default la sorgente all'atto 
+						dell'inserimento. E' sufficiente l'inserimento nel 
+						progetto per effettuare la simulazione,&nbsp; oppure la 
+						sorgente deve essere in seguito in qualche modo 
+						attivata&nbsp; tramite altri moduli di Ramsete? Mi riferisco 
+						nello specifico al&nbsp; comando &quot;attach source geometry&quot; nel 
+						menu file di souce manager di cui non mi è chairoa la 
+						funzione.</strong></p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1">Quando si crea una sorgente con Source 
+						manager, si usa un riferimento geometrico &quot;locale&quot; della 
+						sorgente, chiaramente indicato nelle figurine che 
+						rappresentano la geometria dei microfoni impiegati per 
+						la misura dei livelli di pressione sonora (in caso di 
+						misura su una superficice definita dall'utente, è 
+						l'utente che gestisce la posizione di ciascun 
+						microfono).<br>
+						In questo modo, si definisce l'&quot;asse principale&quot; della 
+						sorgente, che è l'asse X della sorgente stessa.<br>
+						Quando si va ad inserire la sorgente in ramsete cAD, la 
+						si orienta facendola puntare verso il target point. In 
+						questo modo l'asse X della sorgente viene orientato 
+						correttamente. Volendo avere un feedback visivo del 
+						corretto orientamento, si puo disegnare la reale sagoma 
+						della sorgente con ramsete CAD, importarla in Ramsete 
+						View con il famoso comando &quot;attach source geometry&quot;, ed 
+						in questo modo dentro il file SPK si crea anche una 
+						figurina 3D della sorgente.<br>
+						Quando essa viene inserita in un nuovo disegno di 
+						ramsete CAD, essa appare non solo come quadratino con 
+						lettera, ma compare la sua forma vera e propria, e si 
+						può cosi' verificare che essa sia orientata 
+						correttamente.<br>
+						Bisogna pero' fare attenzione, quando si disegna la 
+						geometria della sorgente, prima di attaccarla al file 
+						SPK, a dichiarare &quot;monopermeable&quot; le superfici che 
+						compongono la sagoma della sorgente stessa, in modo che 
+						essa &quot;lasci scappare fuori&quot; i raggi generati nel suo 
+						centro acustico....</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1"><strong>Il target point&nbsp; che viene 
+						richiesto quando si inserisce una sorgente in Ramsete 
+						CAD,&nbsp; se ho ben compreso serve solo per indicare la 
+						direzione di &nbsp;orientamento della sorgente stessa. 
+						Quindi, l'importante è la&nbsp; direzione e non il punto 
+						esatto di target point. E' corretto?</strong></p>
+						<p class="Stile1">Si</p>
+						<p class="Stile1"><strong>Vorrei costruire una sorgente 
+						con ISO 3744, ma con una disposizione&nbsp;dei microfoni 
+						scelta dall'utente. In questo caso per costruire la 
+						&nbsp;geometria USER occorre creare un file in Ramsete CAD. 
+						Ora, è</strong> <strong>&nbsp;sufficiente che questo file 
+						contenga la disposizione dei microfoni &nbsp;(usando il tool 
+						Receiver di CAD) con corretto orientamento rispetto 
+						&nbsp;agli assi, oppure devo inserire una box, magari 
+						dichiarando nessun &nbsp;materiale nella sua costruzione e 
+						sui suoi spigoli inserire i &nbsp;receiver?</strong></p>
+						<p class="Stile1">Basta mettere i microfoni, e la 
+						sorgente al centro, ovviamente....<br>
+						Il piano riflettente a quota Z=0 è &quot;intrinseco&quot;, non 
+						occorre disegnarlo...<br>
+						Se poi uno vuole, puo' anche disgenare la sorgente, 
+						cosi' poi la si vede quando la si inserisce in un 
+						disegno. Ma, in questo caso, bisogna disegnarla davveri 
+						come è fatta, ed assegnare i corretti materiali di cui è 
+						fatta, ed infine occorre dichiararla &quot;monopermeable&quot;, 
+						cosi' i raggi possono uscire...</p>
+						<p class="Stile1">&nbsp;<br>
+						<strong>&nbsp;Ancora,l'orientamento degli assi così come 
+						appare in Ramsete CAD, &nbsp;immagino sia lo stesso che 
+						compare nel reticolo di costruzione della &nbsp;sorgente 
+						secondo ISO 3744 in Source manager. E' corretto?</strong></p>
+						<p class="Stile1">Ovviamente si, come le avevo già 
+						scritto l'asse X diventa l'asse &quot;principale&quot; della 
+						sorgente.</p>
+						<p class="Stile1">&nbsp;<br>
+						<strong>&nbsp;Domanda collaterale e forse stupida: le 
+						dimensioni del reticolo dei &nbsp;microfoni (2a, 2b, c) sono 
+						definite dalle distanze a cui sono state &nbsp;fatte le 
+						misure e non si riferiscono alle dimensioni fisiche 
+						della </strong><br>
+						<strong>&nbsp;sorgente. E' corretto?</strong></p>
+						<p class="Stile1">Si, definiscono la cosiddetta 
+						&quot;superficie di inviluppo&quot;, come indicato chiaramente nel 
+						testo della ISO 3746.</p>
+						<p class="Stile1">&nbsp;<br>
+						&nbsp;<strong>Che cosa si intende per &quot;test room volume&quot; 
+						sempre nella finestra di &nbsp;creazione della sorgente 
+						secondo ISO 3744? E'&nbsp;forse il volume dell'ambiente dove 
+						sono state eseguite le misure &nbsp;fonometriche?</strong></p>
+						<p class="Stile1">Ovviamente Si. Serve, assieme al tempo 
+						di riverbero, per il calcolo del fattore di correzione 
+						ambientale K2 della ISO 3746.</p>
+						<p class="Stile1">&nbsp;<br>
+						<strong>&nbsp;Una volta creata la sorgente, per darle una 
+						figura geometrica nello &nbsp;spazio utilizzerò il comando 
+						&quot;attach source geometry&quot;.</strong><br>
+						<strong>&nbsp;Tuttavia, immagino che questa forma dovrà 
+						essere fatta di &quot;nessun &nbsp;materiale&quot;, per evitare che 
+						modifichi la natura stessa della sorgente. &nbsp;E' corretto?</strong></p>
+						<p class="Stile1">No. Dopo che i raggi sono usciti, la 
+						sagoma della sorgente diventa un ostacolo come un altro, 
+						quindi deve avere assegnate le sue &quot;vere&quot; proprietà 
+						acustiche.</p>
+						<p class="Stile1">&nbsp;L'utilizzo invece di un &nbsp;qualsiasi 
+						materiale definendolo però monopermeabile è una scelta 
+						&nbsp;equivalente?<br>
+						Si deve usare il materiale vero, e si deve SEMPRE 
+						dichiararla monopermeable, se no i raggi non possono 
+						uscire....</p>
+						<p class="Stile1">&nbsp;Infine, mi conferma che tale figura 
+						deve essere creata intorno al &nbsp;centro degli assi di 
+						riferimento (a differenza del reticolo dei &nbsp;microfoni, 
+						per il quale il centro degli assi coincide con uno 
+						&nbsp;spigolo)?<br>
+						Non esiste alcun legame. La forma della sorgente puo' 
+						essere qualsiasi, e l'entità SOURCE che uno ha 
+						introdotto nel disegno di ramsete CAD non deve 
+						necessariamente trovarsi al centro della geometria delle 
+						sorgente. Non capisco poi il riferimento al reticolo di 
+						microfoni. Anche per essi, la posizione della sorgente 
+						puo' essere qualsiasi, non necessariamente al centro 
+						della loro distribuzione spaziale. Uno disegna le cose 
+						come sono, e poi il programma agisce di conseguenza....<br>
+						&nbsp;<br>
+						<strong>&nbsp;Nel progetto di capannone che ho creato con 
+						ramsete CAD, in &nbsp;particolare mi interessa valutare 
+						l'impatto di due macchine poste nel &nbsp;capannone sulla 
+						zona uffici, posta in un angolo del capannone stesso.</strong>
+						<strong>&nbsp;A questo scopo, è corretto aver definito le 
+						pareti, finestre e &nbsp;soffitto della zona uffici come 
+						&quot;obstructing&quot;? Se non ho capito male, &nbsp;qualora non si 
+						dia questa definizione, il raggio sonoro attraversa la 
+						&nbsp;parete senza tener conto del suo fonoisolamento. E' 
+						corretto?</strong></p>
+						<p class="Stile1">No. <br>
+						Se metto delle sorgenti dentro una scatola (l'ufficio, 
+						in questo caso), i raggi sonori non escono mai dalla 
+						stessa. A meno che la dichiari monopermeable, nel qual 
+						caso i raggi escono subito, al primo impatto, e non 
+						rientrano mai piu'....<br>
+						Il caso che vuol studiare è alquanto compelsso, è quello 
+						di una &quot;scatola nella scatola&quot;. La sorgente si trova 
+						nella scatola esterna (il capannone), ma interesa anche 
+						conoscere i livelli nella scatola interna (l'ufficio).<br>
+						In realtà, entro la scatola interna (ufficio) si 
+						sviluppa anche li' un fenomeno di riverberazione, per 
+						cui non è sufficiente dichiarare obstructing le pareti 
+						di tale scatola interna (se non le dichiaro obstructing, 
+						ovviamente non entra niente, i raggi restano fuori).<br>
+						Dichiarando obstructing le pareti della scatola (che 
+						ovviamente debbono essere assegnate ad un materiale 
+						dotato di valori non nulli del potere fonoisolante, se 
+						no ancora una volta non entra niente), i microfoni posti 
+						all'interno verranno a&nbsp; ricevere il suono che c'è 
+						all'esterno, sottratto il valore del potere fonoisolante 
+						stesso.<br>
+						Poichè però il riverbero entro il locale porta ad un 
+						incremento del livello sonoro interno, operando come 
+						sopra si troverà un valore sottostimato del livello 
+						sonoro entro la scatola interna.<br>
+						Per ottenere il valore giusto, occorre &quot;taroccare&quot; i 
+						valori del potere fonoisolante assegnati alk materile di 
+						cui sono costituite le pareti della scatola interna, che 
+						debbono essere ridotti per tener conto dell'incremento 
+						di livello sonoro prodotto dal riverbero interno. In 
+						sostanza, anzichè usare i valori del potere fonoisolante 
+						R, si debbono in questo caso usare i valori 
+						dell'isolamento acustico D. Il legame teorico fra R e D 
+						è il seguente:<br>
+						D = R - 10*log(S/A) ove S è la superficie delle pareti 
+						della scatola interna, ed A sono le unità assorbenti 
+						dell'ambiente interno (A=0.16*V/T).<br>
+						Per determinare T, e quindi A, si deve fare anzitutto 
+						una simulazione dell'ambiente interno (oppure usare la 
+						formula di Sabine). Si calcola poi, a ciascuna 
+						frequenza, il valore del termine 10*log(S/A), e si 
+						sottrae questo valore dal valore di R del materiale....<br>
+						&nbsp;<br>
+						<strong>&nbsp;Le prime prove che ho eseguito mi lasciano 
+						perplesso in quanto &nbsp;entro gli uffici che ho 
+						&quot;circondato&quot; con intonaco liscio obstructing, &nbsp;mi viene 
+						previsto un Leq di 0 dB. Con geometrie più semplici 
+						questo &nbsp;non avviene (esempio: una sorgente dentro una 
+						scatola ad U). Come è &nbsp;possibile questo errore (mio 
+						ovviamente)?Il materiale impiegato aveva valori di R non 
+						nulli ???</strong></p>
+						<p class="Stile1">&nbsp;Ammetto che non ho approfondito le 
+						basi teoriche della simulazione. &nbsp;Tuttavia, 
+						l'impressione è che con pareti obstructing dopo un certo 
+						&nbsp;numero di riflessioni/diffrazioni, il raggio viene 
+						completamente &nbsp;azzerato, mentre se uso le pareti non 
+						obstructing è come se non ci &nbsp;fossero, ovvero il raggio 
+						non si attenua affatto. Potrebbe essere una <br>
+						&nbsp;soluzione definere le pareti degli uffici come 
+						monopermeabili?<br>
+						No. Se no i raggi entrano la prima volta, e poi non 
+						escono piu'... Le superfici monopermeabili sono per le 
+						sorgenti... Comunque, se mi dice che con le superfici 
+						non obstructing i raggi non vengono attenuati, a me pare 
+						che lei stia usando una versione &quot;vecchia&quot; di Ramsete. 
+						Nell'ultima versione, se le superfici non sono 
+						obstructing, non passsa un bel niente....<br>
+						Aggiorni la sua installazione di ramsete con i moduli 
+						disponibili su:<br>
+						<a href="http://www.ramsete.com/Ramsete/downloadbeta.htm">
+						http://www.ramsete.com/Ramsete/downloadbeta.htm</a></p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1"><strong>se costruisco una parete e&nbsp; 
+						sopra ci pongo una vetrata o una porta con l'opportuno 
+						comando di&nbsp; Ramsete CAD, il programma &quot;ritaglia&quot;parte 
+						della parete e la sostituisce col materiale della 
+						vetrata/porta. </strong><br>
+						<strong>Mi conferma? Il dubbio è che si sovrapponga la 
+						parete alla finestra su di esso&nbsp; disegnata.</strong></p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1">Confermo. L'esistenza delle entità 
+						porta o finestra serve proprio per evitare che gli 
+						utenti &quot;schiaffino sopra&quot; tali oggetti su una parete, 
+						facendo in modo che nella zona di sovrapposizione ci 
+						siano DUE pareti. Con le entità porta o finestra, 
+						invece, il programma ne trova sempre e solo una.<br>
+						E' un grosso problema se uno disegna due superfici una 
+						sopra l'altra, c'è il rischio che il programma si 
+						impasti con un &quot;errore spigolo&quot; quando un raggio 
+						colpiusce tale anomalia...</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1"><strong>Ho appena riformattato il mio 
+						pc e dopo avere installato Ramsete, scaricato da 
+						internet, pur avendo inserito la chiave N° 57 (nera) ed 
+						avere installato il driver HLDR V32.exe, non riesco a 
+						fare funzionare il programma. Commetto qualche errore 
+						nell'installazione?</strong> <br>
+						<strong>Vorrei sapere se Ramsete funziona meglio su 
+						windows 98 o su XP, e se con la chiave in mio possesso 
+						devo utilizzare una specifica versione per non avere 
+						problemi.</strong> <br>
+						<strong>Vorrei conoscere, se possibile, la giusta 
+						sequenza di procedure per installare correttamente il 
+						programma in modo da poterlo memorizzare e poterlo 
+						seguire quando si verificano problemi al pc che 
+						comportino la riformattazione della macchina.</strong>
+						</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1">Ovviamente va molto meglio sotto XP.
+						<br>
+						Perchè la chiave venga vista, occorre installare 
+						l'apposito driver, che si scarica dal sito
+						<a title="http://www.ramsete.com/" href="http://www.ramsete.com">
+						www.ramsete.com</a>: <br>
+						<a title="http://www.ramsete.com/Ramsete/32bitdrv.htm" href="http://www.ramsete.com/Ramsete/32bitdrv.htm">
+						http://www.ramsete.com/Ramsete/32bitdrv.htm</a> <br>
+						Comunque da quello che scrive il driver è stato 
+						installato correttamente... <br>
+						L'altra cosa che serve è inserire nelle prime due linee 
+						del file Ramsete.ini gli appositi dati di registrazione:
+						<br>
+						User= <br>
+						Reg=<br>
+						Comunque,&nbsp;con&nbsp;XP&nbsp;non&nbsp;succedono&nbsp;MAI&nbsp;problemi&nbsp;che&nbsp;comportino&nbsp;la&nbsp;riformattazione&nbsp;della&nbsp;macchina....
+						</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1"><strong>Ho visitato il sito del CLF 
+						spero che possa diventare uno standard dato che in quel 
+						modo sono visualizzabili anche in maniera organica tutti 
+						i dati del diffusore. Mi sembra un' invenzione 
+						intelligente. Spero possa diventare a breve compatibile 
+						anche con il vs. Software.</strong></p>
+						<p class="Stile1"><strong>P.S. Sbaglio ho ho sentito 
+						parlare di sorgenti lineari? Sarà una funzione</strong><br>
+						<strong>che sulla versione lite immagino non sia 
+						prevista. Spero di&nbsp; sbagliarmi cmq grazie per il tempo 
+						dedicatomi</strong></p>
+						<p class="Stile1">Si, stiamo lavorando sul supporto ai 
+						files CLF, che spero di rilasciare in tempi molto brevi 
+						(Pasqua). <br>
+						Le sorgenti lineari servono per il calcolo in esterni 
+						del rumore di strade e ferrovie. Non hanno niente a che 
+						vedere con i &quot;line arrays&quot; di altoparlanti, che tuttavia 
+						sono in realtà costituiti da una file di sorgenti 
+						puntiformi, e come tali possono venire simulati in 
+						Ramsete. Va però precisato che la simulazione risulta 
+						corretta solo se si chiede a Ramsete di calcolare la 
+						risposta all'impulso in pressione, non quella 
+						energetica. Occorre pertanto, al termine del calcolo, 
+						convertire i risultati in formato WAV, usando il modulo 
+						Audio Converter. Solo la risposta all'impulso in 
+						pressione tiene infatti conto correttamente 
+						dell'interferenza fra numerosi altoparlanti vicini, 
+						alimentati con lo stesso segnale....<br>
+						Ramsete consente inoltre di studiare anche l'effetto 
+						degli algoritmi di &quot;steering&quot; elettronico del fascio di 
+						un line array, imponendo opportuni ritardi e guadagni ai 
+						segnali emessi dai singoli altoparlanti. Occorre 
+						effettuare una simulazione con &quot;save separate sources&quot; 
+						attvato, ed anche con &quot;save hits&quot; impostato almeno a 3, 
+						meglio a 5. Dopodichè, si effettua la somma fra i 
+						risultati impegando il modulo &quot;file - Add sources&quot; di 
+						Ramsete View, che consnete di impostare, per ogni 
+						sorgente, ritrado e guadagno. </p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1"><strong>Esiste versione demo???</strong><br>
+						Purtroppo non esiste (ancora) una versione &quot;demo&quot; di 
+						ramsete con cui potersi esercitare a casa. Il software 
+						che si scarica è quello per gli utenti in possesso della 
+						chiave hardware,, all'interno della quale è momorizzato 
+						il nome utente ed il relativo codice di attivazione. 
+						Senza chiave hardware, il programma non si installa 
+						nemmeno!<br>
+						Abbiamo in programma di realizzare una versione &quot;demo&quot;, 
+						ma ci siamo a dietro da alcuni mesi senza arrivarci in 
+						fondo.... <br>
+						Penso quindi ci vorranno almeno altri 2-3 mesi prima che 
+						sul sito del Ramsete la versione &quot;demo&quot; risulti 
+						disponibile.... </p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1"><strong>Prima questione: Se non ho 
+						capito male dal manuale, diversamente dalla norma EN 
+						60268, la quale prevede che il valore finale dello STI 
+						sia effettuata come somma pesata dei vari MTI, con 
+						coefficienti di pesatura dipendenti dal tipo di voce 
+						(maschile o femminile), Ramsete calcola il valore dello 
+						STI per bande di frequenza.<br>
+						Ciò che non è ben chiaro è <br>
+						-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; se effettivamente la corrispondente somma 
+						pesata dello STI sia riportata nella tabella sotto la 
+						voce ‘Lin’ per ogni ricettore;<br>
+						-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; se la pesatura viene effettuata per voce 
+						maschile o femminile.<br>
+						&nbsp;<br>
+						</strong>Il modulo STI di Ramsete è stato realizzato in 
+						accordo alla &quot;precedente&quot; versione delle IEC 60268-16, 
+						che non prevedeva le differenti pesature &quot;male&quot; e 
+						&quot;female&quot; dei valori di STI di banda, ma utilizzava i 
+						fattori di peso &quot;standard&quot; originali di Houtgast e 
+						Steeneken. Quello che in gergo si chiama &quot;classic STI&quot;, 
+						e come tale viene&nbsp; speso indicato nei capitolati. <br>
+						Inoltre veniva definito anche un &quot;modified STI&quot;, in cui 
+						i fattori di peso delle due bande estreme (125 Hz ed 8 
+						kHz) sono posti a zero. <br>
+						Con maggior dettaglio, i fattori di peso utilizzati sono 
+						i seguenti: </p>
+						<p class="Stile1">wSTIA(3) = 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '125 Hz<br>
+						wSTIA(4) = 0.074<br>
+						wSTIA(5) = 0.149<br>
+						wSTIA(6) = 0.198<br>
+						wSTIA(7) = 0.337<br>
+						wSTIA(8) = 0.241<br>
+						wSTIA(9) = 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '8 kHz <br>
+						<br>
+						wSTIL(3) = 0.13&nbsp;&nbsp;&nbsp; '125 Hz<br>
+						wSTIL(4) = 0.14<br>
+						wSTIL(5) = 0.11<br>
+						wSTIL(6) = 0.12<br>
+						wSTIL(7) = 0.19<br>
+						wSTIL(8) = 0.17<br>
+						wSTIL(9) = 0.14&nbsp;&nbsp;&nbsp; '8 kHz </p>
+						<p class="Stile1">Conseguentemente, nella banda &quot;A&quot; 
+						viene riportato il valore complessivo di STI-modified, 
+						mentre nella banda LIN viene riportato il valore 
+						complessivo dello STI-Classic. </p>
+						<p class="Stile1">Lo spettro della voce utilizzato è il 
+						seguente: <br>
+						<br>
+						' Standard Voice Spectrum, Leq=60 dB(A) at 1m<br>
+						VoiceLev(3) = -2.5&nbsp; ' 125<br>
+						VoiceLev(4) = -0&nbsp;&nbsp;&nbsp;&nbsp; ' 250<br>
+						VoiceLev(5) = -1&nbsp;&nbsp;&nbsp;&nbsp; ' 500<br>
+						VoiceLev(6) = -5&nbsp;&nbsp;&nbsp;&nbsp; '1000<br>
+						VoiceLev(7) = -10&nbsp;&nbsp;&nbsp; '2000<br>
+						VoiceLev(8) = -17&nbsp;&nbsp;&nbsp; '4000<br>
+						VoiceLev(9) = -23&nbsp;&nbsp;&nbsp; '8000 </p>
+						<p class="Stile1">Mi pare che coincida con lo spettro 
+						&quot;MALE&quot; della nuova versione della norma IEC..... <br>
+						Dalle prove che ho fatto con il modulo STI di Aurora, 
+						elaborando misure reali, non trovo mai differenze 
+						maggiori di 0.03 fra i vari modi di calcolare lo STI.
+						</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1"><strong>Seconda questione 
+						Visualizzando&nbsp; la curva della risposta all’impulso, 
+						accade spesso che vi sia la presenza di artefatti non 
+						propriamente comprensibili. Le allego alcune immagini 
+						relative a questo problema.<br>
+						Dopo svariate prove, risulta che tale problema risulta 
+						molto più evidente all’aumentare della complessità della 
+						geometria (oltre 2000 superfici, anche se risulta essere 
+						talvolta presente con poche superfici), su calcolatori 
+						dotati di processore AMD piuttosto che Intel (in questo 
+						caso è estremamente evidente!!).<br>
+						Inoltre, le vorrei segnalare che con il nuovo 
+						tracciatore questo fenomeno si presenta molto più spesso 
+						che con il vecchio.<br>
+						Questo fatto non risulta problematico tanto con il 
+						calcolo dei tempi di riverberazione, quanto piuttosto ad 
+						esempio con i parametri C80, D50, G,…<br>
+						La domande che si pongono sono allora:<br>
+						-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a cosa è dovuta questa irregolarità nel 
+						calcolo della risposta all’impulso;<br>
+						-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; come si può evitare, o per lo meno ridurre al 
+						massimo;<br>
+						-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; che margine di errore può comportare nel 
+						calcolo dei parametri.</strong></p>
+						<p class="Stile1"><br>
+						Le risposte all'impulso a pettine sono un artefatto 
+						comune ai programmi di tipo &quot;ray tracing&quot;, e sono 
+						causate dai cosiddetti &quot;bliardi acustici&quot;, ovvero 
+						all'esistenza di percorsi ripetitivi dei raggio che 
+						rimbalzano avanti ed indietro fra superfici a basso 
+						coeff. di assorbimento, e che pertanto si estinguono 
+						molto piu' lentamente degli altri raggi. Ciò deriva da 
+						due ordini di problemi:<br>
+						1) disegno gemoetrico eccessivamente semplificato, quali 
+						una semplice stanza parallelepipeda priva di arredi, o 
+						comunque dotata di superfici piane e perfettamente 
+						parallele, mentre nella realtà fisica il parallelismo 
+						perfetto non esiste mai. Soluzione: fare sempre disegni 
+						un po' &quot;sporchi&quot; e non eccessivamente precisi.... <br>
+						2) &quot;trappole acustiche&quot; (scatole o altre cavità chiuse) 
+						all'interno delle quali i raggi restano intrappolati. 
+						Anche in questo caso, si risolve facendo disegni 
+						sistematicamente privi di scatole chiuse o simili 
+						strutture &quot;cave&quot;.... <br>
+						Comunque, onde mitigare il problema Ramsete è stato 
+						dotato della funzione &quot;randomize after&quot;, normalmente 
+						impostata a 4 riflessioni. Essa serve appunto a rendere 
+						volutamente &quot;impreciso&quot; il calcolo della traiettoria dei 
+						raggi, dopo un ridotto numero di rimbalzi &quot;precisi&quot;. 
+						Bisogna SEMPRE lasciare impostato il &quot;ramdomize after&quot;, 
+						a meno che uno voglia studiare questi effetti di 
+						flutter-echo in ambienti che hanno VERAMENTE delle 
+						superfici piane e parallele.... <br>
+						Che tipo ddi geometria è quella che vi ssta dando questi 
+						problemi? Se mi mandate il file RAY, vi indico subito 
+						cos'è che sta causando il problema. E' utile comuinque 
+						anche avere il file ramsete.ini, cosi' vedo con quali 
+						parametri avete fatto l'elaborazione.... </p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1"><strong>&nbsp;Although I downloaded and 
+						overwrote all files, there is still a problem.</strong><br>
+						<strong>&nbsp;When I want to assign a material to a 
+						construction element in Ramsete </strong><br>
+						<strong>&nbsp;CAD, all the in the Material Manager added 
+						coefficients of new </strong><br>
+						<strong>&nbsp;materials appear with the value 0.</strong> </p>
+						<p class="Stile1">I couldn't read all of your e-mails, 
+						so I beg your pardon if I'd write obvious things, that 
+						you've already tried before.</p>
+						<p class="Stile1">Generally speaking it'is not safe to 
+						use two modules at the same time:<br>
+						it's safer to create all the needed materials before 
+						using them in Ramsete Cad.<br>
+						Nevertheless I tried to open the material manager and 
+						ramsete cad at the same time.<br>
+						I created a wall using material 1, then I added into the 
+						manager a dummy material 500 and pressed the &quot;Update 
+						File&quot; button.<br>
+						At last I've added a second wall, assigning material 500 
+						to it without noticing any 0 values.<br>
+						It's very important to check the international settings 
+						in Windows (98 or XP), you should really make sure that 
+						you selected the point (.) as a decimal separator.<br>
+						If you don't select the &quot;.&quot; Material Manager saves the 
+						coefficients in the<br>
+						ramsete.mat in a bad&nbsp;&nbsp; format that Ramsete Cad cannot 
+						read.&nbsp; You can't<br>
+						verify this statement opening the ramsete.mat file with 
+						Notepad and checking the coefficients of the newly added 
+						materials.<br>
+						Otherwise you could send me your Ramsete.mat file so 
+						that I can check it for you.<br>
+						You should also make sure to have a single copy of 
+						Ramsete.mat file on your disk (you can use the find 
+						button in the windows file explorer).<br>
+						Occasionally some empty copies of this file my appear in 
+						an unexpected way.<br>
+						Feel free to contact me if the problem persists or I 
+						didn't undersand it at all.</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1"><strong>&nbsp;scrivo per risolvere un 
+						dubbio sul programma RAMSETE.&nbsp;Devo simulare il rumore 
+						prodotto da alcune macchine di una &nbsp;falegnameria 
+						inserite all'interno di un vano tecnico di nuova 
+						&nbsp;costruzione.</strong><br>
+						<strong>&nbsp;Il vano è una struttura in acciaio di 6 X 22 X 
+						3 mt. di altezza. &nbsp;tamponata con pannelli isolanti in 
+						lana di roccia.</strong><br>
+						<strong>&nbsp;Dalla ditta fornitrice mi sono fatto spedire i 
+						rapporti di prova dei &nbsp;pannelli.&nbsp;Ora il coefficiente di 
+						assorbimento dato dal rapporto lo inserisco in &nbsp;alpha 
+						S., e viene corretto automaticamente.&nbsp;Per il potere 
+						fonoisolante è giusto inserire i valori dati dal 
+						&nbsp;rapporto in R, oppure devono essere corretti.&nbsp;In questo 
+						caso come devo fare a correggerli</strong>.</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1">I valori di R vanno già bene. 
+						Comunque, da quello che capisco, si tratta di fare una 
+						simulazione di &quot;una scatola dentro una seconda scatola&quot;. 
+						Tale simulazione è possibile con Ramsete, ma non è cosi' 
+						banale come si potrebbe pensare. Infatti, se uno 
+						dichiara le superfici della scatola interna 
+						semplicemente come &quot;obstructing&quot;, i raggi sonori non 
+						escono mai dalla scatola interna, continuano a 
+						rimbalzare all'interno di essa. Occorre dunque 
+						dichiarare la scatola interna come &quot;obstructiung&quot; ma 
+						anche come &quot;monopermeable&quot;; in modo che i raggi la 
+						attraversino al loro primo impatto, e poi si riverberino 
+						entro la scatola piu' grande. A questo punto, poichè i 
+						raggi sono &quot;fuori&quot;, le proprietà fonoassorbenti del 
+						materiale di cui è fatta la scatola interna debbono 
+						essere quelle della sua parete esterna, non quelle della 
+						parete interna affacciata verso la sorgente. Normalmente 
+						queste pareti metalliche hanno una superficie esterna 
+						molto liscia e riflettente, con bassi valori di 
+						AlphaSabine.... Sicuramente non si debbono impiegare i 
+						valori di AlphaSabine forniti dal produttore, che si 
+						riferisocno alla superficie interna altamente 
+						fonoassorbente.</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1"><strong>Le scrivo in merito a un 
+						problema riscontrato nell'utilizzo del sofware Ramsete 
+						1.8.</strong><br>
+						<strong>&nbsp;</strong><br>
+						<strong>&nbsp;Il programma Ramsete View consente di 
+						utilizzare Surfer per la &nbsp;mappatura della distribuzione 
+						dei parametri acustici, tuttavia</strong> <strong>
+						&nbsp;scegliendo l'opzione &quot;use surfer&quot; ottengo sempre 
+						l'errore di run-time &nbsp;429 , active-x non può creare 
+						l'oggetto.</strong><br>
+						<strong>&nbsp;Questo succede indistintamente per ogni file 
+						&quot;_a&quot;.&nbsp;Utilizzo la versione Surfer 8.0, mi chiedevo se ci 
+						fosse qualche file &nbsp;di Surfer da copiare nella cartella 
+						di Ramsete o viceversa in modo da</strong> <strong>
+						&nbsp;permettere loro di riconoscersi.</strong><br>
+						<strong>&nbsp;</strong><br>
+						<strong>&nbsp;Inoltre, sempre in Ramsete View, anche senza 
+						selezionare l'opzione &nbsp;&quot;use Surfer&quot; la mappatura dei 
+						parametri tempo di riverberazione, t20, &nbsp;t30, edt, resta 
+						&quot;monocromatica&quot; con valore 0 per tutti i microfoni 
+						&nbsp;anche se dalle tabelle di questi stessi parametri il 
+						valore è diverso &nbsp;da zero. Per quanto riguarda gli altri 
+						parametri acustici il problema &nbsp;non sussiste e la 
+						mappatura rispecchia i valori delle tabelle.</strong><br>
+						<strong>&nbsp;</strong><br>
+						<strong>&nbsp;Avrei un'ultima domanda che riguarda alfa di 
+						Ramsete e alfa di Sabine. &nbsp;Se il riferimento per i 
+						materiali è l'alfa di Sabine perchè la &nbsp;distinzione con 
+						l'introduzione di un alfa diverso? Che utilizzo ha 
+						&nbsp;l'alfa Ram oltre a quello del software per il calcolo?</strong></p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1">La vecchia versione Ramsete 1.8 
+						supportava Surfer sino alla versione 7.0. Scaricate 
+						l'aggiornamento alla 1.9, e vedrete che funziona tutto!<br>
+						Gli aggiornamenti si scaricano da:<br>
+						<a href="http://www.ramsete.com/Public/Ramsete/Beta/">
+						http://www.ramsete.com/Public/Ramsete/Beta/</a><br>
+						Basta dezippare i files e sovrascrivere quelli 
+						vecchi....</p>
+						<p class="Stile1">Per quanto riguarda invece il coeff. 
+						Di assorbimento: come è noto, Alfa Sabine è il valore 
+						che si misura secondo ISO 354 in camera riverberante, e 
+						funziona per i calcoli &quot;statistici&quot; basati sulla formula 
+						di Sabine. Ma è a tutti noto che non è il &quot;vero Alfa&quot;, 
+						in quanto può superare il valore 1....<br>
+						In Ramsete, invece, cosi' come in tutti gli altri 
+						programmi &quot;ray tracing&quot;, il calcolo viene fatto a 
+						partire dal valore del &quot;vero Alfa&quot;, in quanto ogni volta 
+						che un raggio rimbalza su una superficie, la sua 
+						intensità sonora si riduce, per effetto della 
+						moltiplicazione per un fattore (1-Alfa). Se Alfa fosse 
+						maggiore di 1, avremmo una &quot;intensità negativa&quot;, che è 
+						un paradosso...</p>
+						<p class="Stile1">Quindi TUTTI i programmi Ray Tracing 
+						&quot;convertono&quot; in un qualche modo i valori di Alfa Sabine 
+						nei corrispondenti &quot;Alfa Veri&quot;. Però Ramsete lo fa in 
+						modo esplicito, facendo vedere all'utente i valori che 
+						userà per davvero. Ci sono casi, inoltre, in cui 
+						l'utente conosce i valori di &quot;Alfa vero&quot;, ad es.<br>
+						da misure nel tubo ad onde stazionarie, da misure con il 
+						metodo intensimetrico, o da misure con la norma EN per 
+						le superfici stradali o le barriere antirumore (metodo 
+						impulsivo). In tutti questi casi, l'utente puo'<br>
+						introdurre direttamente i valori di Alfa vero, che 
+						verranno usati nel calcolo senza ulteriori conversioni 
+						(mentre in altri programmi, uno li deve prima convertire 
+						lui in Alfa Sabine, e poi il programma lo riconverte in 
+						Alfa Vero, magari portando ad usare valori diversi da 
+						quelli noti dalle misure).</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1"><strong>Le riassumo il problema:</strong><br>
+						<strong>In Ramsete View Non è possibile creare le mappe 
+						dei seguenti parametri &nbsp;Ldir-Lrev, EDT/s, T10, T15, T20, 
+						T30/s, utilizzando il modulo interno &nbsp;risulta una mappa 
+						con tutti i punti a zero, utilizzando il &nbsp;collegamento 
+						con surfer il programma si blocca (ovviamente perché il 
+						&nbsp;.dat ha tutti i valori z a zero).</strong><br>
+						<strong>Nella tabella e nel file .- invece i dati 
+						numerici sono presenti. &nbsp;Chiaramente tutti gli altri 
+						parametri vengono mappati regolarmente.</strong><br>
+						<strong>&nbsp; </strong><br>
+						<strong>Se può essere utile un altro tecnico, che tempo 
+						fa aveva utilizzato &nbsp;Ramsete, mi ha detto che aveva 
+						avuto lo stesso problema, ma che era</strong> <strong>
+						&nbsp;riuscito a risolverlo con una complicata procedura di 
+						reinstallazione &nbsp;della chiave hardware (che entrava in 
+						conflitto con xp), ma non si &nbsp;ricorda più come e non ha 
+						più la possibilità di replicare la cosa.</strong><br>
+						<strong>&nbsp; </strong><br>
+						<strong>Ora, sono perfettamente conscio che le mappe di 
+						riverbero non hanno &nbsp;molto senso, ma l’ Ldir-Lrev e 
+						l’EDT/s secondo me si.&nbsp;L’escamotage di trasferire le 
+						tabelle a mano in surfer non lo &nbsp;considero accettabile, 
+						visto il costo del software.</strong></p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1">Ho sistemato i bachi segnalati. La 
+						nuova versione &quot;beta&quot; del Ramsete View è scaricabile dal 
+						sito <a href="www.ramsete.com">www.ramsete.com</a>.<br>
+						Grazie, saluti</p>
+						<p class="Stile1">Surfer 8 è supportato solo dalla 
+						release &quot;beta&quot; di ramsete 2.2, scaricabile dal sito
+						<a href="www.ramsete.com">www.ramsete.com</a>.<br>
+						La release &quot;ufficiale&quot; 2.1, invece, è tuttora ferma al 
+						solo supporto delle releases Surfer 6 e 7.<br>
+						Comunque, io uso felicemente la nuova &quot;beta&quot; 2.2 di 
+						Ramsete da alcuni mesi (3, per l'esattezza) assieme a 
+						Surfer 8, e va tutto perfettamente.</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1"><strong>&nbsp;Innanzi tutto una domanda di 
+						ordine pratico. &nbsp;Mi si è reso necessario realizzare 
+						delle simulazioni sulla distanza <br>
+						&nbsp;ottimale per diffusori acustici per sistemi di 
+						sicurezza su corridoi &nbsp;di ospedali (Norma EN 60849, 
+						ancora STI...). Visto che Ramsete non &nbsp;supporta file CLF, 
+						EASE o Ulysses, mi si è reso necessario ricreare &nbsp;una 
+						sorgente corrispondente ad un diffusore Bosch LBC 
+						&nbsp;3086/41 (diffusore per allarmi di sicurezza a soffitto).<br>
+						&nbsp;La descrizione è reperibile sul link seguente:<br>
+						&nbsp;<a href="http://fe0wap86.bosch.de/intershoproot/eCS/Store/all/ST_NA/lit">http://fe0wap86.bosch.de/intershoproot/eCS/Store/all/ST_NA/lit1/LBC308641_DataSheet_itIT_E2154999307.pdf</a><br>
+						&nbsp; &nbsp;Non avendo dati specifici a disposizione, ho 
+						'copiato' i dati del &nbsp;diagramma polare in un file 'prn' 
+						e caricato il file con 'Load from &nbsp;file' del Source 
+						manager (Interpolate from polar data). &nbsp;Tutto questo 
+						SENZA immettere ulteriori dati di potenza o sensibilità. 
+						&nbsp;Apparentemente i dati inseriti hanno riscontro in una 
+						simulazione con &nbsp;il SPL a 1m, 1W (89,2 dB(A) anzichè 90 
+						&nbsp;dB(A) come descritto dai dati tecnici). &nbsp;La mia domanda 
+						è: ho seguito il procedimento corretto? Le allego il 
+						&nbsp;file 'spk' risultato.<br>
+						&nbsp;<br>
+						In seguito a questo ho realizzato delle simulazioni con 
+						maglie di &nbsp;punti nei tre piani principali per verificare 
+						la corretta <br>
+						distribuzione dell'energia attorno al diffusore.<br>
+						Con mio sommo dispiacere, dopo aver osservato risultati 
+						piuttosto &nbsp;strampalati con il tracciatore V2.2, ho 
+						riprodotto i calcoli con la &nbsp;V2.1. E qui i risultati 
+						prodotti sono sensati. &nbsp;Nei file il diffusore è inserito 
+						nell'origine degli assi e rivolto <br>
+						verso Z negativo. L'errore più evidente si presenta nel 
+						piano XY, e si &nbsp;manifesta con una mancanza di simmetria 
+						centrale nella mappatura 2D &nbsp;del Leq.<br>
+						Tra l'altro risulta impossibile visualizzare una 
+						mappatura 2D del Leq &nbsp;a frequenze singole piuttosto che 
+						in scala A.<br>
+						&nbsp;<br>
+						Le allego i file utilizzati durante il procedimento per 
+						ulteriori &nbsp;opportune verifiche del caso.<br>
+						&nbsp;<br>
+						&nbsp;<br>
+						&nbsp;<br>
+						&nbsp;PS. Ramsete supporterà in futuro formati descrittivi 
+						standard di &nbsp;sogenti acustiche (CLF o EASE bin)?</strong>
+						</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1">Ora ci guardo poi le faccio sapere.
+						<br>
+						Segnalo comunque che l'orientamento scelto per la 
+						sorgente è proprio l'unico da non usare mai, in quanto 
+						allorchè l'asse dell'altoparlante punta esattamente 
+						verso Z-negative, l'algoritmo che definisce il mapping 
+						fra coordinate polari e coordinate cartesiane ha una 
+						singolarità, ed il &quot;rolling angle&quot; perde significato. 
+						Capisco che questo altoparlante è progettato per 
+						&quot;sparare in basso&quot;, ma occorre gestirlo in altro modo: o 
+						non lo si punta &quot;esattamente&quot; in basso (basta tiltarlo 
+						di 11 grado), oppure lo si definisce già ruotato di 90°, 
+						in modo che il suo posizionamento ad asse orizzontale 
+						dia in realtà luogo a duna emisssione dominante veerso 
+						il basso.<br>
+						Dopo aver analizzato i risultati vi faccio sapere cosa è 
+						successo...<br>
+						<br>
+						Per ilf uturo: abbiamo già aderito al consorzio CLF, ed 
+						abbiamo pertanto avuto accesso al codice sorgente per 
+						supprtare i files CLF, ma non abbiamo ancora avuto tempo 
+						di incorporarlo in ramsete.<br>
+						Nell'immediato, penso che faremo un piccolo porgramma di 
+						conversione per convertire i fiels CLF in files .SPK.<br>
+						Lo stesso vorremmo fare per Ease, ma qui ci si scontra 
+						con il fatto che Wolfang Ahnert non vuole che altri 
+						programmi siano in grado di leggere o scrivere i files 
+						di Ease, il cui formato non è documentato. Occorre 
+						quindi fare del &quot;reverse engineering&quot; per gestire tali 
+						files, e non sarà facile...<br>
+						<br>
+						<br>
+						<br>
+						<strong>&nbsp;Mi si è reso necessario realizzare delle 
+						simulazioni sulla distanza &nbsp;ottimale per diffusori 
+						acustici per sistemi di sicurezza su corridoi &nbsp;di 
+						ospedali (Norma EN 60849, ancora STI...). Visto che 
+						Ramsete non &nbsp;supporta file CLF, EASE o Ulysses, mi si è 
+						reso necessario ricreare &nbsp;una sorgente corrispondente ad 
+						un diffusore Bosch LBC &nbsp;3086/41 (diffusore per allarmi 
+						di sicurezza a soffitto).<br>
+						&nbsp;La descrizione è reperibile sul link seguente:<br>
+						&nbsp;<a href="http://fe0wap86.bosch.de/intershoproot/eCS/Store/all/ST_NA/lit">http://fe0wap86.bosch.de/intershoproot/eCS/Store/all/ST_NA/lit</a><br>
+						&nbsp;1/LBC308641_DataSheet_itIT_E2154999307.pdf<br>
+						&nbsp;Non avendo dati specifici a disposizione, ho 'copiato' 
+						i dati del &nbsp;diagramma polare in un file 'prn' e caricato 
+						il file con 'Load from &nbsp;file' del Source manager 
+						(Interpolate from polar data).<br>
+						&nbsp;Tutto questo SENZA immettere ulteriori dati di potenza 
+						o sensibilità. <br>
+						&nbsp;Apparentemente i dati inseriti hanno riscontro in una 
+						simulazione con &nbsp;il SPL a 1m, 1W (89,2 dB(A) anzichè 90<br>
+						&nbsp;dB(A) come descritto dai dati tecnici).<br>
+						&nbsp;La mia domanda è: ho seguito il procedimento corretto? 
+						Le allego il &nbsp;file 'spk' risultato.<br>
+						&nbsp;<br>
+						&nbsp;In seguito a questo ho realizzato delle simulazioni con 
+						maglie di &nbsp;punti nei tre piani principali per verificare 
+						la corretta <br>
+						&nbsp;distribuzione dell'energia attorno al diffusore.<br>
+						&nbsp;Con mio sommo dispiacere, dopo aver osservato risultati 
+						piuttosto &nbsp;strampalati con il tracciatore V2.2, ho 
+						riprodotto i calcoli con la &nbsp;V2.1. E qui i risultati 
+						prodotti sono sensati. &nbsp;Nei file il diffusore è inserito 
+						nell'origine degli assi e rivolto <br>
+						&nbsp;verso Z negativo. L'errore più evidente si presenta nel 
+						piano XY, e si &nbsp;manifesta con una mancanza di simmetria 
+						centrale nella mappatura 2D &nbsp;del Leq. &nbsp;Tra l'altro 
+						risulta impossibile visualizzare una mappatura 2D del 
+						Leq &nbsp;a frequenze singole piuttosto che in scala A.<br>
+						</strong><br>
+						<br>
+						Comunque vedo che è un altoparlante perfettamente 
+						assialsimmetrico, quindi il programma non compie alcuna 
+						&quot;interpolazione&quot; nel generare il balloon a partire dalle 
+						curve di direttività.<br>
+						E quindi, anche il &quot;roll angle&quot; è ininfluente sul 
+						risultato, quindi mi aspetterei che la simulazione 
+						funzioni senza problemi, anche puntandolo esattamente 
+						verso il basso (cosa comunque sempre rischiosa per 
+						problemi di instabilità numerica). Non so se domani 
+						riesco a far girare le simulazioni, forse sarà il mio 
+						collega Galaverna a farlo, e vediamo cosa viene fuori, 
+						sia con la versione vecchia di ramsete (2.1) sia con la 
+						nuova (2.2). <br>
+						Per quanto riguarda il livello sonoro in asse, vedo che, 
+						ad esempio ad 1 kHz, la direttività è pari a Q=3.394. Il 
+						valore del livello di potenza è pari a 94.69 dB.<br>
+						Quindi il livello di pressione ad 1m, sarà:<br>
+						Lp=94.69+10*log(3.394/4/pi/1^2)=89.00 dB Mentre sul 
+						Data-Sheet è indicato un valore di 90.0 dB. Quindi il 
+						valore di Lw indicato nell'Header del file SPK è 
+						sottostimato di 1.00 dB, occorre riaprire il file con 
+						Source manager, editare l'header cambiando i valori di 
+						Lw, in modo che l'emissione dell'altoparlante sia quella 
+						corretta. <br>
+&nbsp;</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1"><strong>&nbsp;Devo valutare l'abbatimento 
+						sonoro provocato da uno schermo composto da un pannello 
+						di 5 cm di materiale fonoisolante alto 3 metri 
+						&nbsp;posizionato nei pressi di una sorgente sonora ( i 
+						valori di &nbsp;fonoisolamento del pannello sono</strong><br>
+						<strong>&nbsp;certificati)&nbsp;Ho provato a simularlo tramite 
+						ramsete, ottenendo i risultati che &nbsp;riporto in allegato 
+						ante e post schermo.</strong><br>
+						<strong>&nbsp;L'abbatimento( prendendo come riferimento il 
+						ricettore N° 5) risulta &nbsp;di circa 15 dB(A), ma se faccio 
+						un calcolo utilizzando le formule di &nbsp;makeawa mi viene 
+						un abbattimento molto più basso.</strong><br>
+						<strong>&nbsp;</strong><br>
+						<strong>&nbsp;I parametri mi sembrano esatti.&nbsp;Quali valori 
+						sono più attendibili?</strong></p>
+						<p class="Stile1">La barriera è stata erroneamente 
+						dotata anche del flag &quot;monopermeable&quot;.<br>
+						Cosi' facendo, i raggi &quot;passano attraverso&quot; la barriera, 
+						anzichè venire diffratti dai suoi bordi liberi... Quindi 
+						subiscono una attenuazione dovuta solo al potere 
+						fonoisolante della barriera (che peraltro è stato 
+						assegnato erroneamente solo alle bande di frequenza 
+						centrali, mentre ovviamente Ramsete necessita del valore 
+						&quot;corretto&quot; a tutte le frequenze - soprattutto 
+						considerando il fatto che invece le sorgenti sonore 
+						utilizzate hanno potenza emessa a tutte le frequenze!).<br>
+						In sostanza, basta togliere il flag &quot;monopermeable&quot; (che 
+						va usato solo per cabine chiuse, non per barriere dotate 
+						di bordi liberi) e completare a tutte le frequenze i 
+						valori del potere fonoisolante e del coeff. di 
+						assorbimento del materiale usato per la barriera 
+						(ovviamente, non puo' avere assorbimento nullo!).<br>
+						Consiglio inoltre di ridurre il valore del parametro 
+						HitLevel, un valore di</p>
+						<p class="Stile1">8 produce un enorme numero di 
+						salvataggi nel file &quot;chiocciola&quot;, contenente le 
+						traiettorie dei raggi. Se Randomize After è a 4 
+						riflessioni, che senso ha memorizzare il tragitto di 
+						riflessioni di ordine superiore al quarto, visto che le 
+						stesse sono state randomizzate, e quindi non sono 
+						rappresentative della traiettoria reale? Questo comunque 
+						ha il solo effetto di rallentare il calcolo, ma è 
+						indifferente sul risultato... </p>
+						<p class="Stile1">&nbsp;</p>
+						<p class="Stile1"><strong>History è sempre stato OFF, 
+						occorre attivarlo ora anche in Ramsete 2.2 e mettere il 
+						valore a -1?</strong><br>
+						No, History off va benissimo (equivale a metterlo a -1) 
+						, vuol dire che segue le piramidi per tutta la loro 
+						storia, e questo è OK nella maggior parte dei casi...</p>
+						<p class="Stile1"><strong>Diffusion in Ramsete 2.2 non è 
+						abilitato, ma leggendo il manuale di Ramsete 2.5 pare di 
+						capire che vada sempre abilitato. Occorre farlo anche in 
+						Ramsete 2.2 ?</strong> <br>
+						Diffusion rende meno problematica la simulazione di 
+						ambienti semplici e regolari (tipo scatolone 
+						rettangolare), ma non cambia sostanzialmente i risultati 
+						in caso di geometrie complesse, piene di ingombri dalle 
+						forme strane... Questa funzione era già presente sin dal 
+						vecchio Ramsete 2.0, quindi non c'è alcuna differenza 
+						nell'ultima release...</p>
+						<p class="Stile1"><strong>Con molti microfoni e ambienti 
+						complessi si seleziona Save Hits a 1. E’ possibile avere 
+						più informazioni portandolo a 2 in Ramsete 2.2.</strong><br>
+						Saved hits serve per vedere le traiettorie dei raggi 
+						riflessi, se no non serve a niente. Non cambia i 
+						risultati del calcolo in alcun modo, abilita 
+						semplicemente la visualizzazione delle traiettorie dei 
+						raggi sino all'ordine di riflessione specificato...</p>
+						<p class="Stile1"><strong>Se Ramsete 2.5 avesse il Tool 
+						che consentisse di generare in automatico 1-2-3-4 assi 
+						con un numero di microfoni a scelta tra le sequenze 
+						della norma e fosse in grado inoltre di calcolare 
+						automaticamente il DL2(5m) DL2(20m) e DL2(oltre 20m), 
+						senza costringerci a farlo in post processing con Excel, 
+						sarebbe veramente utile. Infatti ormai è sempre 
+						necessaria l'analisi d'impatto ambientale predittiva per 
+						nuovi ambienti secondo EN ISO 11690-3 e EN ISO 14257 da 
+						inserire negli organi di controllo.</strong><br>
+						E' una feature del tutto nuova, penso si possa 
+						aggiungere senza troppa difficoltà. Occorrerà un nuovo 
+						tool in Ramsete CAD (o una nuova combinazione 
+						tasto+mouse, simile a quella che già adesso disegna 
+						automaticamente una griglia di recettori).</p>
+						<p class="Stile1"><strong>Quando una sorgente è posta 
+						dietro una o più superfici dichiarate obstructing, 
+						l'energia sonora che esce dalle superfici di 
+						tamponamento si comporta come se fosse irradiata da una 
+						sorgente di area?</strong><br>
+						No, continua ad essere originata dalla sorgente 
+						puntiforme originale, con relativa divergenza 
+						geometrica, ecc…il raggio &quot;attraversante&quot; viene 
+						attenuato del potere fonoisolante del pannello, gli 
+						eventuali raggi diffratti dai bordi liberi sono 
+						attenuati sulla base della formula di Kurze-Anderson...</p>
+						<hr></div>
+					<p align="center"><font face="Arial">©2007
+					<a href="http://www.laegroup.org">LAE</a> - Edited by
+					<a href="http://www.angelofarina.it/adriano/home.htm">
+					Adriano Farina</a></font></td>
+				</tr>
+			</table>
+			<p align="right">&nbsp;</div>
+	</div>
+</div>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+; Copyright (c) 2001 EUTRON
+
+[Version]
+Signature="$Windows 95$"
+Provider=%ProviderName%
+Class=SmartKeyToken
+ClassGuid={FD24329F-D8E1-11d5-A0E5-00105A693B00}
+; { 0xfd24329f, 0xd8e1, 0x11d5, { 0xa0, 0xe5, 0x0, 0x10, 0x5a, 0x69, 0x3b, 0x0 } };
+DriverVer=11/01/2001,1.0.0.0
+; Comment this line for unsigned drivers
+; CatalogFile=skeyusb.cat
+
+;--------- Disk -----------------------
+
+[SourceDisksNames]
+1 = %DiskDesc%,,,
+
+[SourceDisksFiles]
+skeyusb.sys = 1
+
+;--------- Files -----------------------
+
+[DestinationDirs]
+DefaultDestDir = 10,System32\Drivers
+main_Files_Driver = 10,System32\Drivers
+
+[main_Files_Driver]
+skeyusb.sys
+
+;--------- Class -------------------------------
+
+[ClassInstall]
+AddReg=Class_AddReg
+
+[ClassInstall32]
+AddReg=Class_AddReg
+
+[Class_AddReg]
+HKR,,,,%DeviceClassName%
+HKR,,Icon,,"-20"
+
+;--------- Manufacturer ----------------------------------
+
+[Manufacturer]
+%MfgName%=Mfg0
+
+[Mfg0]
+%DeviceDesc%=main_DDI, USB\VID_073D&PID_0000
+
+[ControlFlags]
+ExcludeFromSelect = USB\VID_073D&PID_0000
+
+; --------- Windows 9X -----------------
+
+[main_DDI]
+CopyFiles=main_Files_Driver
+AddReg=main_9X_AddReg
+Reboot
+
+[main_9X_AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,skeyusb.sys
+
+; --------- Windows NT -----------------
+
+[main_DDI.NT]
+CopyFiles=main_Files_Driver
+AddReg=main_NT_AddReg
+
+[main_DDI.NT.Services]
+AddService = skeyusb, 0x00000002, main_AddService
+
+[main_AddService]
+DisplayName    = %SvcDesc%
+ServiceType    = 1
+StartType      = 3
+ErrorControl   = 1
+ServiceBinary  = %10%\System32\Drivers\skeyusb.sys
+
+[main_NT_AddReg]
+
+;--------- Strings ---------------------------------------------------
+
+[Strings]
+ProviderName="EUTRON"
+MfgName="EUTRON"
+DeviceClassName="SmartKey Tokens"
+DeviceDesc="SmartKey USB"
+SvcDesc="SmartKey USB"
+DiskDesc="Install Disk"

@@ -1,0 +1,51 @@
+EntityList
+ Source -22 1 1.7 -22 1 0 0 omni.spk
+ Receiver -9 1 1.7 -9 1 1.7
+ Wall
+  Face 0 483 4  -2 2 0  -2 2 3  -2 0 3  -2 0 0
+ End
+ Face 0 483 4  -23 9 0  -23 -7 0  3 -7 0  3 9 0
+ Wall
+  Face 0 483 4  -2 2 0  -2 2 3  -1 2 3  -1 2 0
+ End
+ Wall
+  Face 0 483 4  -1 2 0  -1 2 3  -1 0 3  -1 0 0
+ End
+ Wall
+  Face 0 483 4  -2 0 0  -2 0 3  -1 0 3  -1 0 0
+ End
+ Receiver -12 5 1.7 -4 -3 1.7
+ Receiver -9 5 1.7 -9 5 1.7
+ Receiver -6 5 1.7 -6 5 1.7
+ Receiver -6 -3 1.7 -6 -3 1.7
+ Receiver -9 -3 1.7 -9 -3 1.7
+ Receiver -12 -3 1.7 -12 -3 1.7
+ Receiver -6 1 1.7 -6 1 1.7
+ Receiver -12 1 1.7 -12 1 1.7
+ Receiver -4 1 1.7 -4 1 1.7
+ Receiver -4 5 1.7 -4 5 1.7
+ Receiver -4 -3 1.7 -4 -3 1.7
+ Face 0 483 4  -2 2 3  -2 0 3  -1 0 3  -1 2 3
+ Receiver -16 5 1.7 -16 5 1.7
+ Receiver -15 5 1.7 -15 5 1.7
+ Receiver -13 1 1.7 -13 1 1.7
+ Receiver -14 1 1.7 -14 1 1.7
+ Receiver -15 1 1.7 -15 1 1.7
+ Receiver -16 1 1.7 -16 1 1.7
+ Receiver -11 1 1.7 -11 1 1.7
+ Receiver -10 1 1.7 -10 1 1.7
+ Receiver -8 1 1.7 -8 1 1.7
+ Receiver -7 1 1.7 -7 1 1.7
+ Receiver -5 1 1.7 -5 1 1.7
+ Receiver -3 1 1.7 -3 1 1.7
+ Receiver -17 1 1.7 -17 1 1.7
+ Receiver -18 1 1.7 -18 1 1.7
+ Receiver -19 1 1.7 -19 1 1.7
+ Receiver -20 1 1.7 -20 1 1.7
+ Receiver -21 1 1.7 -21 1 1.7
+End
+InfoList
+End
+MaterialList
+483  Floors , 0.200 0.200 0.150 0.080 0.060 0.060 0.060 0.060 0.080 0.100, 999.9 999.9 999.9 999.9 999.9 999.9 999.9 999.9 999.9 999.9, 0.100 0.100 0.100 0.100 0.100 0.100 0.100 0.100 0.100 0.100
+End

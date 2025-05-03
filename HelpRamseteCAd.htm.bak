@@ -1,0 +1,392 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="it">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="icon" href="favicon.ico" type="image/x-icon" /> 
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<title>RAMSETE</title>
+<style>
+<!--
+.Stile1 {font-size: small}
+-->
+</style>
+<!--mstheme--><link rel="stylesheet" type="text/css" href="_themes/ramsete/rams1011.css"><meta name="Microsoft Theme" content="ramsete 1011, default">
+</head>
+
+<body>
+
+<font face="Arial">
+<!-- end masthead -->
+	</font>
+<div id="pagecell1" style="center">
+	<font face="Arial">
+  <!--pagecell1-->
+  
+  	</font>
+	<div id="breadCrumb">
+		&nbsp;<p style="text-align: center"><font size="6" face="Arial">RAMSETE : 
+		Room Acoustics modeling on PC </font></p>
+		<p style="text-align: center"><a href="home.htm">
+		<!--webbot bot="Navigation" s-type="sequence" s-orientation="horizontal" s-rendering="graphics" b-include-home="FALSE" b-include-up="FALSE" u-page="sid:1001" s-theme="Papyrus 0010" startspan --><script language="JavaScript"><!--
+MSFPhover = 
+  (((navigator.appName == "Netscape") && 
+  (parseInt(navigator.appVersion) >= 3 )) || 
+  ((navigator.appName == "Microsoft Internet Explorer") && 
+  (parseInt(navigator.appVersion) >= 4 ))); 
+function MSFPpreload(img) 
+{
+  var a=new Image(); a.src=img; return a; 
+}
+// --></script><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav1n=MSFPpreload("_derived/home.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav1h=MSFPpreload("_derived/home.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="home.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1h.src" onmouseout="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1n.src"><img src="_derived/home.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Home" align="middle" name="MSFPnav1"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav2n=MSFPpreload("_derived/news.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav2h=MSFPpreload("_derived/news.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="news.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav2'].src=MSFPnav2h.src" onmouseout="if(MSFPhover) document['MSFPnav2'].src=MSFPnav2n.src"><img src="_derived/news.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="News" align="middle" name="MSFPnav2"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav3n=MSFPpreload("_derived/features.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav3h=MSFPpreload("_derived/features.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="features.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav3'].src=MSFPnav3h.src" onmouseout="if(MSFPhover) document['MSFPnav3'].src=MSFPnav3n.src"><img src="_derived/features.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Package" align="middle" name="MSFPnav3"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav4n=MSFPpreload("_derived/download.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav4h=MSFPpreload("_derived/download.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="download.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav4'].src=MSFPnav4h.src" onmouseout="if(MSFPhover) document['MSFPnav4'].src=MSFPnav4n.src"><img src="_derived/download.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Download" align="middle" name="MSFPnav4"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav5n=MSFPpreload("_derived/support.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav5h=MSFPpreload("_derived/support.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="support.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav5'].src=MSFPnav5h.src" onmouseout="if(MSFPhover) document['MSFPnav5'].src=MSFPnav5n.src"><img src="_derived/support.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Support" align="middle" name="MSFPnav5"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav6n=MSFPpreload("_derived/AboutUS.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav6h=MSFPpreload("_derived/AboutUS.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="AboutUS.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav6'].src=MSFPnav6h.src" onmouseout="if(MSFPhover) document['MSFPnav6'].src=MSFPnav6n.src"><img src="_derived/AboutUS.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="About Us" align="middle" name="MSFPnav6"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav7n=MSFPpreload("_derived/ext1008_cmp_Papyrus010_hbtn.gif"); MSFPnav7h=MSFPpreload("_derived/ext1008_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="http://www.laegroup.org/forum/index.php?board=9.0" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav7'].src=MSFPnav7h.src" onmouseout="if(MSFPhover) document['MSFPnav7'].src=MSFPnav7n.src"><img src="_derived/ext1008_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Forum" align="middle" name="MSFPnav7"></a><!--webbot bot="Navigation" i-checksum="42590" endspan --></a></p>
+		<div align="center">
+			<table border="1" width="97%" id="table1" bgcolor="#FFFFFF" cellpadding="4" style="border-collapse: collapse">
+				<tr>
+					<td>
+					<div class="Stile1" id="pageName">
+						<h2 class="Stile1" align="left"><font size="5">
+						<span style="font-weight: 400">Ramsete CAD Help</span>
+						</font></h2>
+						<hr>
+						<p align="justify"><strong>File New</strong><br>
+						This command saves the current drawing (if any) and 
+						clears all active views allowing you to start a new 
+						project.</p>
+						<p align="justify"><strong>File Open</strong><br>
+						This command displays the usual Windows file selection 
+						dialog box, in which you can select the name of the 
+						desired .RAY or .DXF file.</p>
+						<p align="justify"><strong>Merge</strong><br>
+						This command if analogous to the File Open option, the 
+						unique difference is the fact that the selected file is 
+						appended to the current model instead of replacing it.</p>
+						<p align="justify"><strong>Save</strong><br>
+						This command saves the current drawing using the usual 
+						Windows dialog box in which you can choose the name of 
+						file, the first time you save it. You can also choose to 
+						save the model in DXF format. When you save large 
+						projects you'll be asked for checking the duplicates 
+						entities you could have created accidentally or imported 
+						from less than perfect DXF files. If the program finds 
+						such entities you can safely delete them. You can 
+						perform this task manually using the Select duplicates 
+						command.</p>
+						<p align="justify"><strong>Save as</strong><br>
+						This command allows you to save the current model with a 
+						different name, using the Window dialog box. You can 
+						also choose to save the model in DXF format: see the 
+						File Open option for the details.</p>
+						<p align="justify"><strong>Base map</strong><br>
+						This command reads a DXF file, containing the 2D 
+						representation of the base map of the model. You can 
+						draw actual walls following the resulting gray lines on 
+						the background<br>
+						Dxf in<br>
+						This command allows you to import a DXF file. You should 
+						be informed about the guidelines you should follow in 
+						order to attain the best results:</p>
+						<p align="justify">&nbsp;- 3DFACE entities will be recognized 
+						as walls, floors or ceilings, according to their 
+						orientation. If a 3DFACE is included in another 3DFACE 
+						it will be considered as a door or a window.<br>
+						&nbsp;- POLYLINE entities will be converted in holes in the 
+						nearest wall.<br>
+						&nbsp;- LINE entities (preferably in the RECEIVERS layer) 
+						will be converted in receivers placed on the starting 
+						point and oriented in the same direction of the segment.<br>
+						&nbsp;- ATTDEF entities (preferably in the SOURCES layer) 
+						will be converted in sources placed on the starting 
+						point and oriented in the same direction of the segment.</p>
+						<p align="justify">If you want to learn all the details 
+						about the DXF format accepted by Ramsete, you should 
+						simply use the Dxf out command and analize the output 
+						with a text editor.</p>
+						<p align="justify"><strong>Dxf out</strong><br>
+						This command exports the current drawing in DXF format. 
+						You can modify the DXF file using any DXF enabled tool. 
+						Of course you can also import it again in Ramsete CAD 
+						using the Dxf in command.</p>
+						<p align="justify"><strong>Project notes</strong><br>
+						Using this command you can write some text notes to be 
+						attached to the project</p>
+						<p align="justify"><strong>Exit</strong><br>
+						This command exits the program after asking you to save 
+						the current drawing.</p>
+						<p align="justify"><strong>Cut</strong><br>
+						This command deletes the currently selected entities and 
+						copies them into the clipboard. You can paste them in 
+						another drawing if you start a second instance of 
+						Ramsete CAD.</p>
+						<p align="justify"><strong>Copy</strong><br>
+						This command copies all the selected entities into the 
+						clipboard. You can paste them in another drawing if you 
+						start a second instance of Ramsete CAD.</p>
+						<p align="justify"><strong>Paste</strong><br>
+						If you saved something into the clipboard, using a Cut 
+						or Copy command, you can paste those entities in the 
+						current drawing.</p>
+						<p align="justify"><strong>Duplicate</strong><br>
+						This command is totally equivalent to the Copy and Paste 
+						command sequence. The final effect is the duplication of 
+						all the selected entities. At this point you should 
+						immediately move them in another location. If you don't 
+						do that you would obtain an inconsistent model, that 
+						could give unpredictable results.</p>
+						<p align="justify"><strong>Delete</strong><br>
+						This command deletes definitively the currently selected 
+						entities. You can retrieve them only using the command.</p>
+						<p align="justify"><strong>Undo</strong><br>
+						You can use this command to cancel the effects of your 
+						last action. For example: if you deleted a wall by 
+						accident, Undo will make it to reappear . You can undo 
+						the last ten actions (subject to change). If your system 
+						performs too badly, you can disable the Undo command in 
+						the Options menu.</p>
+						<p align="justify"><strong>Redo</strong><br>
+						This command nullifies the effects of the preceding undo 
+						command: i.e. it repeats the last action that you 
+						accidentally undone.</p>
+						<p align="justify"><strong>Resize</strong><br>
+						This command displays a dialog box by which you can 
+						specify a scaling factor that will affect all the 
+						selected entities.<br>
+						<strong>Properties</strong><br>
+						This command displays a dialog box by which you can edit 
+						the properties of the select items</p>
+						<p align="justify"><strong>Geometry</strong><br>
+						This command displays a dialog box that shows the 
+						geometric properties of the selected objects.</p>
+						<p align="justify"><strong>Select All Entities</strong><br>
+						This command selects all the model entities.</p>
+						<p align="justify"><strong>Select Material</strong><br>
+						This command selects all entities made of a particular 
+						material, chosen from the list of all availabe 
+						materials.</p>
+						<p align="justify"><strong>Select Obstructing</strong><br>
+						This command displays a dialog box by which you can 
+						select obstructing faces in three modes:</p>
+						<p align="justify">&nbsp;- Select all obstructing faces<br>
+						&nbsp;- Select faces that should be obstructing<br>
+						&nbsp;- Assign automatically the obstructing flag</p>
+						<p align="justify">The first option simply scans the 
+						model and selects all the faces that has been declared 
+						as obstructing.<br>
+						The second option tries to determine euristically which 
+						faces should be declared as obstructing<br>
+						The third option performs the same task of the second 
+						but automatically assigns the obstructing flag to the 
+						selected faces.</p>
+						<p align="justify"><strong>Select Monopermeable</strong><br>
+						This command selects all the surfaces that has been 
+						declared as monopermeable. Usually you should use this 
+						special faces in order to enclose noise sources. The 
+						tracer will follow the path of the sound waves that will 
+						trespass the monopermeable faces only on the very first 
+						impact. On successive impacts they will be reflected as 
+						usual.</p>
+						<p align="justify"><strong>Toggle all receivers</strong><br>
+						This commands selects or deselects all the receivers 
+						present in the model.</p>
+						<p align="justify"><strong>Toggle all sources</strong><br>
+						This commands selects or deselects all the sources 
+						present in the model.</p>
+						<p align="justify"><strong>Advanced</strong><br>
+						This command displays a list of all the materials used 
+						in the model. If you click on a item of the list, all 
+						the corresponding entities will be colored.</p>
+						<p align="justify"><strong>Select Duplicates</strong><br>
+						This command scans the entire model for duplicate 
+						entities, i.e. objects with the identical geometric 
+						position of others. This objects can be source of 
+						unpredictable results and so you should try to eliminate 
+						them all. Each time you save a model, it will checked 
+						for duplicates anyway.</p>
+						<p align="justify"><strong>Unselect all</strong><br>
+						This commands unselects all the currently selected 
+						entities.</p>
+						<p align="justify"><strong>Pick</strong><br>
+						This is the selection tool by which you can select or 
+						deselect the entities you click onto. In order to select 
+						a face you must click nearby its edges, not inside it! 
+						You can also select rectangular areas by dragging the 
+						mouse pointer and keeping the left button pressed, in 
+						this way all the entities inside the rectangle will be 
+						selected. You can use this tool in any view of the 
+						model.</p>
+						<p align="justify"><strong>Lens</strong><br>
+						Using the lens tool you can zoom in any detail of the 
+						model in any view. If you click the left mouse button 
+						you'll zoom in the area surrounding the selected point. 
+						If you click the right mouse button you'll return to the 
+						standard view of the entire model. You can also zoom 
+						rectangular areas by dragging the mouse pointer and 
+						keeping the left button pressed</p>
+						<p align="justify"><strong>Move</strong><br>
+						Once you have selected some entities you can use this 
+						command in order to specify an offset to be applied to 
+						them. You should simply click on a chosen point and drag 
+						the mouse to another target point. When you'll release 
+						the mouse button, all selected entities will be move 
+						accordingly.</p>
+						<p align="justify"><strong>Mirror</strong><br>
+						This command allows you to mirror all the selected 
+						entities with respect to a plane. You specify this 
+						mirroring plane by defining a line: simply click on the 
+						starting point and then drag the mouse pointer on the 
+						final point. Now you'll be asked for the deletion of the 
+						selected entities that will be mirrored anyway.</p>
+						<p align="justify"><strong>Rotate</strong><br>
+						This command allows you to rotate all the selected 
+						entities around a specified axis. You should click on 
+						the center of the rotation an specify the desired angle 
+						in degrees.</p>
+						<p align="justify"><strong>Floor</strong><br>
+						Usually this is the very first tool you should use in 
+						order to define the floor for the entire project. 
+						Normally you'll draw a rectangle by simply dragging the 
+						mouse pointer on the plan view.</p>
+						<p align="justify"><strong>Roof</strong><br>
+						The procedure to draw a roof is very similar to the one 
+						used for the floor, but when you've drawn the rectangle 
+						you'll be prompted for the elevations of three points, 
+						the fourth we'll be computed automatically.</p>
+						<p align="justify"><strong>Wall</strong><br>
+						In the plant view you can draw a wall as a segment, in 
+						the front or side views you'll draw a rectangle. When 
+						you've placed the segment you'll be asked for the 
+						minimum and maximum elevation of the wall. In the side 
+						or front view you'll be prompted for the missing 
+						coordinate with the standard dialog box.</p>
+						<p align="justify"><strong>Box</strong><br>
+						This tool allows the creation of closed boxes. You 
+						should click one time in the position of each vertex of 
+						the polygonal base. Then, when you click again on the 
+						first vertex, you'll be asked for the height of the box 
+						and you'll be able to specify if you want a floor and a 
+						roof on it.</p>
+						<p align="justify"><strong>Boxes</strong><br>
+						If you want to draw a series of connected boxes you have 
+						simply to click on the junction points. As soon as you 
+						click on the starting point you will be prompted for the 
+						box parameters. Then, while you click on the following 
+						points, the program will draw the boxes. In order to 
+						terminate the procedure, you should click two times on 
+						the last point.</p>
+						<p align="justify"><strong>Cylinder</strong><br>
+						In order to draw a cylinder you have to define the 
+						circumference arc of its base clicking onto three points 
+						to define the arc itself limits. If you want to draw a 
+						complete circle you should click onto two points 
+						defining the diameter and click on the first point again 
+						to finish. At this point you'll have to insert the 
+						cylinder elevations in the dialog box.</p>
+						<p align="justify"><strong>Sphere</strong><br>
+						The procedure that defines a spherical surface is 
+						identical to the one we have described for the cylinder. 
+						This tool can't draw a complete sphere but only a 
+						fraction of it, but you can draw a semi-sphere and use 
+						the mirror tool in order to have the complete work done.</p>
+						<p align="justify"><strong>Pipe</strong><br>
+						The procedure to draw pipelines is identical to the one 
+						described for boxes. You'll be asked for the radius of 
+						the pipe as soon as you click on the starting point.</p>
+						<p align="justify"><strong>Door</strong><br>
+						When you want to draw a door you have to select the wall 
+						that it belongs to and click on the position in which 
+						you want to place it. Now you have to specify the door 
+						dimensions in the dialog box.</p>
+						<p align="justify"><strong>Window</strong><br>
+						The procedure that creates a window is identical to the 
+						one we have described for creating a door. The only 
+						difference is that you have to input also the elevation 
+						of the window.</p>
+						<p align="justify"><strong>Hole</strong><br>
+						This tool allows you to make holes into walls. First of 
+						all you should select the wall you want to perforate, 
+						then you describe a closed polygon clicking on its 
+						vertices. The last point of the polygon should coincide 
+						with the first one. If you draw a polygon with three 
+						vertices only you'll be asked if you are trying to draw 
+						an arc: if you answer &quot;No&quot; a triangular hole will be 
+						drawn, otherwise the system it will pop up a dialog 
+						asking you the number of segments that approximate to 
+						the arc. The number of steps is automatically suggested 
+						by the program and you can increase it if you wish, but 
+						keep it as small as possible to reduce computation 
+						times.</p>
+						<p align="justify"><strong>Source</strong><br>
+						You specify the position of a source drawing a segment 
+						from its real position to the point it's aimed at. This 
+						is very important for the correct computation of the 
+						sound field of directive sources. At this point you'll 
+						be asked for the elevation of the source and of its 
+						target point. The roll angle defines the rotation of the 
+						source axis with respect for the floor plane (xy plane). 
+						At last you've to define the full path of the source 
+						parameters file in the common open dialog. If you keep 
+						the Shift key pressed while dragging the mouse pointer 
+						you'll define a rectangular grid of sources. You define 
+						the density of the grid in the dialog box, that will pop 
+						up after you have released the mouse button.</p>
+						<p align="justify"><strong>Receiver</strong><br>
+						A receiver represents a microphone, any measure 
+						equipment or a person. The tracer results will always be 
+						relative to the receiver's position, they shouldn't be 
+						considered the mean value of the room, so you should use 
+						more than a receiver in order to analyze a room 
+						properly. The more receiver you place the more precise 
+						results you get, but remember that the resulting file 
+						will be much larger and the computation times longer. 
+						You can place a receiver with the same steps described 
+						for a source, but you'll be asked for the receiver 
+						elevation only because the target point is always at the 
+						same height. This piece of information is fundamental 
+						for the computation of LE parameter. You can draw a grid 
+						of receivers following the same procedure used for 
+						sources.</p>
+						<p align="justify"><strong>Plant, Front and Side views</strong><br>
+						These are the standard orthogonal views that can be 
+						shown or hidden by selecting the corresponding menu 
+						option. You can also activate them by pressing &quot;P&quot;, &quot;F&quot; 
+						and &quot;S&quot; respectively.</p>
+						<p align="justify"><strong>View</strong><br>
+						This command displays a dialog box in which you can 
+						select some parameters that will affect the rendering of 
+						some entities. In particular you can show or hide all 
+						the receivers, the sources and their respective 
+						orientation vectors.</p>
+						<p align="justify"><strong>Help</strong><br>
+						This command displays this help page using your internet 
+						browser.</p>
+						<p align="justify"><strong>About</strong><br>
+						This command displays the usual info box about the 
+						release of the program</p>
+						<hr></div>
+					<p align="left"><font face="Arial" size="3">&nbsp;©2007
+					<a href="http://www.laegroup.org">LAE</a> - Edited by
+					<a href="http://www.angelofarina.it/adriano">Adriano Farina</a></font></td>
+				</tr>
+			</table>
+			<p align="right">&nbsp;</div>
+	</div>
+</div>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+
+</body>
+
+</html>

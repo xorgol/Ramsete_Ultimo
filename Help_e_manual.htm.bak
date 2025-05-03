@@ -1,0 +1,114 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="it">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="icon" href="favicon.ico" type="image/x-icon" /> 
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<title>RAMSETE</title>
+<style>
+<!--
+.Stile1 {font-size: small}
+-->
+</style>
+<!--mstheme--><link rel="stylesheet" type="text/css" href="_themes/ramsete/rams1011.css"><meta name="Microsoft Theme" content="ramsete 1011, default">
+</head>
+
+<body>
+
+<font face="Arial">
+<!-- end masthead -->
+	</font>
+<div id="pagecell1" style="center">
+	<font face="Arial">
+  <!--pagecell1-->
+  
+  	</font>
+	<div id="breadCrumb">
+		&nbsp;<p style="text-align: center"><font size="6" face="Arial">RAMSETE : 
+		Room Acoustics modeling on PC </font></p>
+		<p style="text-align: center"><a href="home.htm">
+		<!--webbot bot="Navigation" s-type="sequence" s-orientation="horizontal" s-rendering="graphics" b-include-home="FALSE" b-include-up="FALSE" u-page="sid:1001" s-theme="Papyrus 0010" startspan --><script language="JavaScript"><!--
+MSFPhover = 
+  (((navigator.appName == "Netscape") && 
+  (parseInt(navigator.appVersion) >= 3 )) || 
+  ((navigator.appName == "Microsoft Internet Explorer") && 
+  (parseInt(navigator.appVersion) >= 4 ))); 
+function MSFPpreload(img) 
+{
+  var a=new Image(); a.src=img; return a; 
+}
+// --></script><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav1n=MSFPpreload("_derived/home.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav1h=MSFPpreload("_derived/home.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="home.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1h.src" onmouseout="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1n.src"><img src="_derived/home.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Home" align="middle" name="MSFPnav1"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav2n=MSFPpreload("_derived/news.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav2h=MSFPpreload("_derived/news.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="news.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav2'].src=MSFPnav2h.src" onmouseout="if(MSFPhover) document['MSFPnav2'].src=MSFPnav2n.src"><img src="_derived/news.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="News" align="middle" name="MSFPnav2"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav3n=MSFPpreload("_derived/features.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav3h=MSFPpreload("_derived/features.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="features.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav3'].src=MSFPnav3h.src" onmouseout="if(MSFPhover) document['MSFPnav3'].src=MSFPnav3n.src"><img src="_derived/features.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Package" align="middle" name="MSFPnav3"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav4n=MSFPpreload("_derived/download.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav4h=MSFPpreload("_derived/download.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="download.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav4'].src=MSFPnav4h.src" onmouseout="if(MSFPhover) document['MSFPnav4'].src=MSFPnav4n.src"><img src="_derived/download.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Download" align="middle" name="MSFPnav4"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav5n=MSFPpreload("_derived/support.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav5h=MSFPpreload("_derived/support.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="support.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav5'].src=MSFPnav5h.src" onmouseout="if(MSFPhover) document['MSFPnav5'].src=MSFPnav5n.src"><img src="_derived/support.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Support" align="middle" name="MSFPnav5"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav6n=MSFPpreload("_derived/AboutUS.htm_cmp_Papyrus010_hbtn.gif"); MSFPnav6h=MSFPpreload("_derived/AboutUS.htm_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="AboutUS.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav6'].src=MSFPnav6h.src" onmouseout="if(MSFPhover) document['MSFPnav6'].src=MSFPnav6n.src"><img src="_derived/AboutUS.htm_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="About Us" align="middle" name="MSFPnav6"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav7n=MSFPpreload("_derived/ext1008_cmp_Papyrus010_hbtn.gif"); MSFPnav7h=MSFPpreload("_derived/ext1008_cmp_Papyrus010_hbtn_a.gif"); }
+// --></script><a href="http://www.laegroup.org/forum/index.php?board=9.0" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav7'].src=MSFPnav7h.src" onmouseout="if(MSFPhover) document['MSFPnav7'].src=MSFPnav7n.src"><img src="_derived/ext1008_cmp_Papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Forum" align="middle" name="MSFPnav7"></a><!--webbot bot="Navigation" i-checksum="42590" endspan --></a></p>
+		<p>&nbsp;</p>
+		<div align="center">
+			<table border="1" width="97%" id="table4" bgcolor="#FFFFFF" cellpadding="4" style="border-collapse: collapse">
+				<tr>
+					<td>
+					<div class="Stile1" id="pageName">
+						<h2 class="Stile1" align="left">
+						<font size="5" face="Arial">Help (Italian) &amp; Manual 
+						(Italian and English)</font></h2>
+						<hr>
+						<table border="1" width="100%" id="table5">
+							<tr>
+								<td align="center">
+								<a href="Manual/MRamseteCAD.mht">Help - Ramsete 
+								CAD</a></td>
+								<td align="center">
+								<a href="Manual/MMaterialManager.mht">Help - 
+								Material Manager</a></td>
+								<td align="center">
+								<a href="Manual/MSourceManager.mht">Help - 
+								Source manager</a></td>
+							</tr>
+							<tr>
+								<td align="center">
+								<a href="Manual/MRamseteTrace.mht">Help - 
+								Ramsete Tracer</a></td>
+								<td align="center">
+								<a href="Manual/MRamseteView.mht">Help - Ramsete 
+								View</a></td>
+								<td align="center">
+								<a href="Manual/MAudioConverter.mht">Help - 
+								Audio Converter</a></td>
+							</tr>
+							<tr>
+								<td align="center">
+								<a href="Manual/MConvolver.mht">Help - Convolver</a></td>
+								<td align="center"><a href="README.TXT">
+								Readme.txt</a></td>
+								<td align="center">
+								<a href="http://pcfarina.eng.unipr.it/Public/Ramsete/Manual">
+								User's Manual</a></td>
+							</tr>
+						</table>
+						<p>&nbsp;</p>
+						<hr></div>
+					<p align="center"><font face="Arial" size="3">©2007
+					<a href="http://www.laegroup.org">LAE</a> - Edited by 
+					Adriano Farina</font></td>
+				</tr>
+			</table>
+			<p align="right">&nbsp;</div>
+	</div>
+</div>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+
+</body>
+
+</html>

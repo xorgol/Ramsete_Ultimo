@@ -1,0 +1,40 @@
+; Copyright (c) 2002 EUTRON
+
+[Version]
+Signature="$Windows NT$"
+Provider=%ProviderName%
+; DriverVer Date is Month/Day/Year
+DriverVer=06/18/2004,11.1.26.0
+
+; --------- Default -----------------
+
+[DefaultInstall.NT]
+AddReg=main_NT_AddReg
+Reboot
+
+[DefaultInstall.NT.Services]
+AddService = skeyusb, 0x00000002, main_AddService
+
+; --------- Windows NT -----------------
+
+[main_AddService]
+DisplayName    = %SvcDesc%
+ServiceType    = 1
+StartType      = 2
+ErrorControl   = 1
+ServiceBinary  = %10%\System32\Drivers\skeyusb.sys
+LoadOrderGroup = %SvcGroup%
+
+[main_NT_AddReg]
+HKLM, "System\CurrentControlSet\Enum\Root\LEGACY_USBSKEY", "CreateFileName",, "\\.\Skey----"
+HKLM, "System\CurrentControlSet\Enum\Root\LEGACY_USBSKEY", "CompatibleHardwareId", 0x1, 56,49,44,5f,30,37,33,44,26,50,49,44,5f,30,30,30,30,00,00,00
+HKLM, "System\CurrentControlSet\Enum\Root\LEGACY_USBSKEY", "CompatibleHardwareIdSmartKey3", 0x1, 56,49,44,5f,30,37,33,44,26,50,49,44,5f,30,30,32,35,00,00,00
+
+;--------- Strings ---------------------------------------------------
+
+[Strings]
+ProviderName="EUTRON"
+MfgName="EUTRON"
+MdlName="SmartKey USB"
+SvcDesc="SmartKey USB"
+SvcGroup="SmartKey Tokens"

@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:(null)0="http://www.w3.org/TR/REC-html40">
+<!-- DW6 -->
+<head>
+  <meta http-equiv="Content-Language" content="en-us">
+	
+
+
+
+
+	<style>
+<!--
+.Stile1 {font-size: small}
+.Stile2 {color: #107D00}
+-->
+</style>
+
+	
+
+
+
+
+	<title>RAMSETE - Download- General</title>
+
+
+	
+
+
+
+
+	<!--mstheme--><link rel="stylesheet" type="text/css" href="_themes/ramsete/rams1011.css"><meta name="Microsoft Theme" content="ramsete 1011, default">
+<body style="text-align: center">
+
+  </p>
+</div>
+<!-- end masthead -->
+<div id="pagecell1" style="center">
+  <div id="breadCrumb">
+	<p><font size="6" face="Arial">
+	RAMSETE : Room Acoustics modeling on PC </font></p>
+	<p><a href="index-old.htm">
+	<!--webbot bot="Navigation" S-Type="sequence" S-Orientation="horizontal" S-Rendering="graphics" B-Include-Home="TRUE" B-Include-Up="FALSE" U-Page="sid:1001" S-Theme="papyrus 0010" startspan --><script language="JavaScript"><!--
+MSFPhover = 
+  (((navigator.appName == "Netscape") && 
+  (parseInt(navigator.appVersion) >= 3 )) || 
+  ((navigator.appName == "Microsoft Internet Explorer") && 
+  (parseInt(navigator.appVersion) >= 4 ))); 
+function MSFPpreload(img) 
+{
+  var a=new Image(); a.src=img; return a; 
+}
+// --></script><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav1n=MSFPpreload("_derived/home_cmp_papyrus010_hbtn.gif"); MSFPnav1h=MSFPpreload("_derived/home_cmp_papyrus010_hbtn_a.gif"); }
+// --></script><a href="home.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1h.src" onmouseout="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1n.src"><img src="_derived/home_cmp_papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Home" align="middle" name="MSFPnav1"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav2n=MSFPpreload("_derived/news.htm_cmp_papyrus010_hbtn.gif"); MSFPnav2h=MSFPpreload("_derived/news.htm_cmp_papyrus010_hbtn_a.gif"); }
+// --></script><a href="news.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav2'].src=MSFPnav2h.src" onmouseout="if(MSFPhover) document['MSFPnav2'].src=MSFPnav2n.src"><img src="_derived/news.htm_cmp_papyrus010_hbtn.gif" width="141" height="21" border="0" alt="News" align="middle" name="MSFPnav2"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav3n=MSFPpreload("_derived/features.htm_cmp_papyrus010_hbtn.gif"); MSFPnav3h=MSFPpreload("_derived/features.htm_cmp_papyrus010_hbtn_a.gif"); }
+// --></script><a href="features.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav3'].src=MSFPnav3h.src" onmouseout="if(MSFPhover) document['MSFPnav3'].src=MSFPnav3n.src"><img src="_derived/features.htm_cmp_papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Package" align="middle" name="MSFPnav3"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav4n=MSFPpreload("_derived/download.htm_cmp_papyrus010_hbtn.gif"); MSFPnav4h=MSFPpreload("_derived/download.htm_cmp_papyrus010_hbtn_a.gif"); }
+// --></script><a href="download.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav4'].src=MSFPnav4h.src" onmouseout="if(MSFPhover) document['MSFPnav4'].src=MSFPnav4n.src"><img src="_derived/download.htm_cmp_papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Download" align="middle" name="MSFPnav4"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav5n=MSFPpreload("_derived/support.htm_cmp_papyrus010_hbtn.gif"); MSFPnav5h=MSFPpreload("_derived/support.htm_cmp_papyrus010_hbtn_a.gif"); }
+// --></script><a href="support.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav5'].src=MSFPnav5h.src" onmouseout="if(MSFPhover) document['MSFPnav5'].src=MSFPnav5n.src"><img src="_derived/support.htm_cmp_papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Support" align="middle" name="MSFPnav5"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav6n=MSFPpreload("_derived/AboutUS.htm_cmp_papyrus010_hbtn.gif"); MSFPnav6h=MSFPpreload("_derived/AboutUS.htm_cmp_papyrus010_hbtn_a.gif"); }
+// --></script><a href="AboutUS.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav6'].src=MSFPnav6h.src" onmouseout="if(MSFPhover) document['MSFPnav6'].src=MSFPnav6n.src"><img src="_derived/AboutUS.htm_cmp_papyrus010_hbtn.gif" width="141" height="21" border="0" alt="About Us" align="middle" name="MSFPnav6"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav7n=MSFPpreload("_derived/ext1008_cmp_papyrus010_hbtn.gif"); MSFPnav7h=MSFPpreload("_derived/ext1008_cmp_papyrus010_hbtn_a.gif"); }
+// --></script><a href="http://www.laegroup.org/forum" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav7'].src=MSFPnav7h.src" onmouseout="if(MSFPhover) document['MSFPnav7'].src=MSFPnav7n.src"><img src="_derived/ext1008_cmp_papyrus010_hbtn.gif" width="141" height="21" border="0" alt="Forum" align="middle" name="MSFPnav7"></a><!--webbot bot="Navigation" i-checksum="29200" endspan --></a></p>
+	<div align="center">
+		<table border="1" width="97%" id="table2" bgcolor="#FFFFFF" cellpadding="4" style="border-collapse: collapse">
+			<tr>
+				<td>
+				<div id="pagecell2" style="center">
+			<div id="advert">
+				<div class="feature">
+					<font face="Arial">
+  <div class="Stile1" id="pageName">
+    <h2 class="Stile1" align="left"><font size="5">Download - General Informations
+	</font> </h2>
+  	<hr>
+  </div>
+  <div id="advert1">
+    <div class="feature">
+      <ul type="disc">
+        <li>
+          <div align="justify"><strong>
+			<a href="http://www.ramsete.com/Public/Ramsete">Ramsete 2.50 release</a></strong>  
+			(27.02.2008) - No password required, also works in &quot;demo&quot; mode 
+			without any dongle!</div>
+        </li>
+      </ul>
+      <p align="justify">Please, contact  the publisher <a href="http://www.spectra.it"> Spectra</a> for prices and other commercial info. Remember that THEY ARE THE  PUBLISHER, we (the authors) are not responsible of the commercial stuff.</p>
+		<p align="justify">If you want to test Ramsete, download the new  
+		version 2.50, which also works in &quot;demo&quot; mode....</p>
+		<p align="justify">The new  version Ramsete 2.50 is also an 
+		&quot;evaluation copy&quot; of Ramsete. Unregistered users can test it, but are 
+		not entitled to ask for support. </p> 
+		<p align="justify">If you are an unregistered user of Ramsete, we still appreciate your feedback, but be prepared to the fact 
+		that we will not necessarily provide answer to your problems.</p>
+      <p align="justify">E-Mail: <a href="mailto:farina@pcfarina.eng.unipr.it">farina@pcfarina.eng.unipr.it</a></p>
+      <p align="justify"><strong>Please note:</strong> <br />
+        Ramsete is NOT freeware! You need to purchase the hardware protection 
+		key (dongle) for making the program work without &quot;demo&quot; restrictions. 
+		Please be aware that in &quot;demo&quot; mode Ramsete works with reduced accuracy, 
+		so do not consider this to be a &quot;bug&quot; - you do not have to provide 
+		feedback about this....</p>
+      <p align="justify"><strong>Crackers &amp;  Hackers</strong><br />
+        Cracking a program which was regularly downloaded from the publisher's  site IS LEGAL here in Italy (D.L. 29 
+		December 1992, n. 518, 
+		and subsequent modifications), provided  that you do not make any profit from it, 
+		and that you do not redistribute the &quot;cracked&quot; software.</p>
+      <p align="justify">We  are quite confident that our protection scheme 
+		based on hardware dongles is safe enough for  avoiding crackers be able to break it. Nevertheless, it's your right to  try! Simply, please do not bother us with requests 
+		about &quot;how to crack Ramsete&quot;...  you have to find it yourself, if you are a serious hacker/cracker it  
+		should be no problem!</p>
+      <p align="justify">So, if you are  able of decoding, installing and making it work, Ramsete is legally  yours! We simply ask you to send us an E-Mail, telling us how you was  successful in doing the crack. This is a good etiquette rule between  
+		developers and hackers (and, of course, this will be useful for  improving our protection scheme).</p>
+		<p align="justify">However, provided that you managed to crack the 
+		protection scheme of Ramsete, you are only entitled to use it yourself, 
+		for no-profit evaluation. Be aware that, according to the Italian law, 
+		it is a crime to use cracked software for consultancy or other work 
+		resulting in an income to you. Furthermore, it is a crime also 
+		distributing the &quot;crack&quot; tool on P2P networks.</p>
+      <hr>
+      </div>
+	<p align="center">©2007 <a href="http://www.laegroup.org">LAE</a>&nbsp;-&nbsp;Edited by
+						<a href="http://www.angelofarina.it/adriano/home.htm">Adriano Farina</a></font><br>
+	<font face="Arial">
+	<a href="http://validator.w3.org/check?uri=http://www.ramsete.com&charset=(detect+automatically)&doctype=Inline&group=0&verbose=1">
+	<img border="0" src="immagini/valid-xhtml10.png" width="88" height="31"></a></font></div>
+				</div>
+			</div>
+		</div></td>
+			</tr>
+		</table>
+		</div>
+	</div>
+</div>
+
+</html>

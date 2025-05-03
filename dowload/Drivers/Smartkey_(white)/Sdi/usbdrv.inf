@@ -1,0 +1,27 @@
+; Copyright (c) 2002 EUTRON
+
+[Version]
+Signature="$Windows NT$"
+Provider=%ProviderName%
+DriverVer=02/28/2002,1.0.6.0
+
+; --------- Default -----------------
+
+[DefaultInstall.NT.Services]
+AddService = usbdrv, 0x00000002, usbdrv_AddService
+
+; --------- Windows NT -----------------
+
+[usbdrv_AddService]
+DisplayName    = %SvcDesc%
+ServiceType    = 1
+StartType      = 2
+ErrorControl   = 1
+ServiceBinary  = %10%\System32\Drivers\usbdrv.sys
+Dependencies   = skeyusb
+
+;--------- Strings ---------------------------------------------------
+
+[Strings]
+ProviderName="EUTRON"
+SvcDesc="Phoenix USB Stack"

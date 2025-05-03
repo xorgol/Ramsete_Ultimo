@@ -1,0 +1,46 @@
+*********************************************
+
+Download the Latest Ramsete Software (v. 3.01)
+
+*********************************************
+
+Following these instructions, You can download the latest release of the Ramsete 
+package.
+
+Please note: Ramsete is not freeware! You need to purchase it from Spectra 
+(HTTP://www.spectra.it). They will send You an hardware protection key 
+(the new USB memory stick, which replaces older Smartkey or Hardlock dongles). 
+Without it, Ramsete only runs in demo mode.
+
+After installation, look at the README.TXT file for information about
+bug fixings and new features.
+
+INSTRUCTIONS
+
+First of all, download the following files:
+
+RAMSETE301.ZIP - Archive containing the setup files
+
+  1. Unzip all the contents of the ZIP archive to a temporary directory
+  2. Execute the setup.exe program
+  3. Follow the instructions of the Setup. Now You are free to install the software in whatever directory
+     You want. 
+  4. We DO NOT SUGGEST to install it in the same directory as a previous Ramsete installation
+  5. We warmly suggest, instead, to leave untouched the default directory (C:\Ramsete30)
+
+After installation, look at the readme.txt file for updeated infos on this release.
+ 
+*****************************************************************************
+
+New USB memory stick
+
+Starting with version 3.00, Ramsete employs a new hardware protection scheme,
+based on a standard USB memory stick containing an hardware+software key
+Being a normal USB memory stick, no driver is required.
+If you own an older hardware dongle for Ramsete, please contact Spectra for a
+new USB memory stick.
+Without the proper USB memory stick, Ramsete runs in demo mode. In current release,
+the demo mode has only limitations in the Ramsete CAD module, all other modules
+operate with full features also without a dongle.
+
+*****************************************************************************

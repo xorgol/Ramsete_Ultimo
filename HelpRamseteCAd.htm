@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Language" content="it">
+	<link rel="icon" href="favicon.ico" type="image/x-icon" /> 
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<title>Ramsete Home Page</title>
+	<link rel="stylesheet" type="text/css" href="ramsete.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+	<body >
+		<h1>RAMSETE : Room Acoustics modeling on PC</h1>
+		<nav>
+			<ul>
+				<li><a href="home.htm">Home</a></li>
+				<li><a href="news.htm">News</a></li>
+				<li><a href="features.htm">Package</a></li>
+				<li><a href="download.htm">Download</a></li>
+				<li><a href="support.htm">Support</a></li>
+				<li><a href="AboutUS.htm">About Us</a></li>
+				<li><a href="http://ramsete.forumfree.it/">Forum</a></li>
+			</ul>
+		</nav>
+		<div>
+						<h2>Ramsete CAD Help</h2>
+						<hr>
+						<p><strong>File New</strong><br>
+						This command saves the current drawing (if any) and 
+						clears all active views allowing you to start a new 
+						project.</p>
+						<p><strong>File Open</strong><br>
+						This command displays the usual Windows file selection 
+						dialog box, in which you can select the name of the 
+						desired .RAY or .DXF file.</p>
+						<p><strong>Merge</strong><br>
+						This command if analogous to the File Open option, the 
+						unique difference is the fact that the selected file is 
+						appended to the current model instead of replacing it.</p>
+						<p><strong>Save</strong><br>
+						This command saves the current drawing using the usual 
+						Windows dialog box in which you can choose the name of 
+						file, the first time you save it. You can also choose to 
+						save the model in DXF format. When you save large 
+						projects you'll be asked for checking the duplicates 
+						entities you could have created accidentally or imported 
+						from less than perfect DXF files. If the program finds 
+						such entities you can safely delete them. You can 
+						perform this task manually using the Select duplicates 
+						command.</p>
+						<p><strong>Save as</strong><br>
+						This command allows you to save the current model with a 
+						different name, using the Window dialog box. You can 
+						also choose to save the model in DXF format: see the 
+						File Open option for the details.</p>
+						<p><strong>Base map</strong><br>
+						This command reads a DXF file, containing the 2D 
+						representation of the base map of the model. You can 
+						draw actual walls following the resulting gray lines on 
+						the background<br>
+						Dxf in<br>
+						This command allows you to import a DXF file. You should 
+						be informed about the guidelines you should follow in 
+						order to attain the best results:</p>
+						<p>&nbsp;- 3DFACE entities will be recognized 
+						as walls, floors or ceilings, according to their 
+						orientation. If a 3DFACE is included in another 3DFACE 
+						it will be considered as a door or a window.<br>
+						&nbsp;- POLYLINE entities will be converted in holes in the 
+						nearest wall.<br>
+						&nbsp;- LINE entities (preferably in the RECEIVERS layer) 
+						will be converted in receivers placed on the starting 
+						point and oriented in the same direction of the segment.<br>
+						&nbsp;- ATTDEF entities (preferably in the SOURCES layer) 
+						will be converted in sources placed on the starting 
+						point and oriented in the same direction of the segment.</p>
+						<p>If you want to learn all the details 
+						about the DXF format accepted by Ramsete, you should 
+						simply use the Dxf out command and analize the output 
+						with a text editor.</p>
+						<p><strong>Dxf out</strong><br>
+						This command exports the current drawing in DXF format. 
+						You can modify the DXF file using any DXF enabled tool. 
+						Of course you can also import it again in Ramsete CAD 
+						using the Dxf in command.</p>
+						<p><strong>Project notes</strong><br>
+						Using this command you can write some text notes to be 
+						attached to the project</p>
+						<p><strong>Exit</strong><br>
+						This command exits the program after asking you to save 
+						the current drawing.</p>
+						<p><strong>Cut</strong><br>
+						This command deletes the currently selected entities and 
+						copies them into the clipboard. You can paste them in 
+						another drawing if you start a second instance of 
+						Ramsete CAD.</p>
+						<p><strong>Copy</strong><br>
+						This command copies all the selected entities into the 
+						clipboard. You can paste them in another drawing if you 
+						start a second instance of Ramsete CAD.</p>
+						<p><strong>Paste</strong><br>
+						If you saved something into the clipboard, using a Cut 
+						or Copy command, you can paste those entities in the 
+						current drawing.</p>
+						<p><strong>Duplicate</strong><br>
+						This command is totally equivalent to the Copy and Paste 
+						command sequence. The final effect is the duplication of 
+						all the selected entities. At this point you should 
+						immediately move them in another location. If you don't 
+						do that you would obtain an inconsistent model, that 
+						could give unpredictable results.</p>
+						<p><strong>Delete</strong><br>
+						This command deletes definitively the currently selected 
+						entities. You can retrieve them only using the command.</p>
+						<p><strong>Undo</strong><br>
+						You can use this command to cancel the effects of your 
+						last action. For example: if you deleted a wall by 
+						accident, Undo will make it to reappear . You can undo 
+						the last ten actions (subject to change). If your system 
+						performs too badly, you can disable the Undo command in 
+						the Options menu.</p>
+						<p><strong>Redo</strong><br>
+						This command nullifies the effects of the preceding undo 
+						command: i.e. it repeats the last action that you 
+						accidentally undone.</p>
+						<p><strong>Resize</strong><br>
+						This command displays a dialog box by which you can 
+						specify a scaling factor that will affect all the 
+						selected entities.<br>
+						<strong>Properties</strong><br>
+						This command displays a dialog box by which you can edit 
+						the properties of the select items</p>
+						<p><strong>Geometry</strong><br>
+						This command displays a dialog box that shows the 
+						geometric properties of the selected objects.</p>
+						<p><strong>Select All Entities</strong><br>
+						This command selects all the model entities.</p>
+						<p><strong>Select Material</strong><br>
+						This command selects all entities made of a particular 
+						material, chosen from the list of all availabe 
+						materials.</p>
+						<p><strong>Select Obstructing</strong><br>
+						This command displays a dialog box by which you can 
+						select obstructing faces in three modes:</p>
+						<p>&nbsp;- Select all obstructing faces<br>
+						&nbsp;- Select faces that should be obstructing<br>
+						&nbsp;- Assign automatically the obstructing flag</p>
+						<p>The first option simply scans the 
+						model and selects all the faces that has been declared 
+						as obstructing.<br>
+						The second option tries to determine euristically which 
+						faces should be declared as obstructing<br>
+						The third option performs the same task of the second 
+						but automatically assigns the obstructing flag to the 
+						selected faces.</p>
+						<p><strong>Select Monopermeable</strong><br>
+						This command selects all the surfaces that has been 
+						declared as monopermeable. Usually you should use this 
+						special faces in order to enclose noise sources. The 
+						tracer will follow the path of the sound waves that will 
+						trespass the monopermeable faces only on the very first 
+						impact. On successive impacts they will be reflected as 
+						usual.</p>
+						<p><strong>Toggle all receivers</strong><br>
+						This commands selects or deselects all the receivers 
+						present in the model.</p>
+						<p><strong>Toggle all sources</strong><br>
+						This commands selects or deselects all the sources 
+						present in the model.</p>
+						<p><strong>Advanced</strong><br>
+						This command displays a list of all the materials used 
+						in the model. If you click on a item of the list, all 
+						the corresponding entities will be colored.</p>
+						<p><strong>Select Duplicates</strong><br>
+						This command scans the entire model for duplicate 
+						entities, i.e. objects with the identical geometric 
+						position of others. This objects can be source of 
+						unpredictable results and so you should try to eliminate 
+						them all. Each time you save a model, it will checked 
+						for duplicates anyway.</p>
+						<p><strong>Unselect all</strong><br>
+						This commands unselects all the currently selected 
+						entities.</p>
+						<p><strong>Pick</strong><br>
+						This is the selection tool by which you can select or 
+						deselect the entities you click onto. In order to select 
+						a face you must click nearby its edges, not inside it! 
+						You can also select rectangular areas by dragging the 
+						mouse pointer and keeping the left button pressed, in 
+						this way all the entities inside the rectangle will be 
+						selected. You can use this tool in any view of the 
+						model.</p>
+						<p><strong>Lens</strong><br>
+						Using the lens tool you can zoom in any detail of the 
+						model in any view. If you click the left mouse button 
+						you'll zoom in the area surrounding the selected point. 
+						If you click the right mouse button you'll return to the 
+						standard view of the entire model. You can also zoom 
+						rectangular areas by dragging the mouse pointer and 
+						keeping the left button pressed</p>
+						<p><strong>Move</strong><br>
+						Once you have selected some entities you can use this 
+						command in order to specify an offset to be applied to 
+						them. You should simply click on a chosen point and drag 
+						the mouse to another target point. When you'll release 
+						the mouse button, all selected entities will be move 
+						accordingly.</p>
+						<p><strong>Mirror</strong><br>
+						This command allows you to mirror all the selected 
+						entities with respect to a plane. You specify this 
+						mirroring plane by defining a line: simply click on the 
+						starting point and then drag the mouse pointer on the 
+						final point. Now you'll be asked for the deletion of the 
+						selected entities that will be mirrored anyway.</p>
+						<p><strong>Rotate</strong><br>
+						This command allows you to rotate all the selected 
+						entities around a specified axis. You should click on 
+						the center of the rotation an specify the desired angle 
+						in degrees.</p>
+						<p><strong>Floor</strong><br>
+						Usually this is the very first tool you should use in 
+						order to define the floor for the entire project. 
+						Normally you'll draw a rectangle by simply dragging the 
+						mouse pointer on the plan view.</p>
+						<p><strong>Roof</strong><br>
+						The procedure to draw a roof is very similar to the one 
+						used for the floor, but when you've drawn the rectangle 
+						you'll be prompted for the elevations of three points, 
+						the fourth we'll be computed automatically.</p>
+						<p><strong>Wall</strong><br>
+						In the plant view you can draw a wall as a segment, in 
+						the front or side views you'll draw a rectangle. When 
+						you've placed the segment you'll be asked for the 
+						minimum and maximum elevation of the wall. In the side 
+						or front view you'll be prompted for the missing 
+						coordinate with the standard dialog box.</p>
+						<p><strong>Box</strong><br>
+						This tool allows the creation of closed boxes. You 
+						should click one time in the position of each vertex of 
+						the polygonal base. Then, when you click again on the 
+						first vertex, you'll be asked for the height of the box 
+						and you'll be able to specify if you want a floor and a 
+						roof on it.</p>
+						<p><strong>Boxes</strong><br>
+						If you want to draw a series of connected boxes you have 
+						simply to click on the junction points. As soon as you 
+						click on the starting point you will be prompted for the 
+						box parameters. Then, while you click on the following 
+						points, the program will draw the boxes. In order to 
+						terminate the procedure, you should click two times on 
+						the last point.</p>
+						<p><strong>Cylinder</strong><br>
+						In order to draw a cylinder you have to define the 
+						circumference arc of its base clicking onto three points 
+						to define the arc itself limits. If you want to draw a 
+						complete circle you should click onto two points 
+						defining the diameter and click on the first point again 
+						to finish. At this point you'll have to insert the 
+						cylinder elevations in the dialog box.</p>
+						<p><strong>Sphere</strong><br>
+						The procedure that defines a spherical surface is 
+						identical to the one we have described for the cylinder. 
+						This tool can't draw a complete sphere but only a 
+						fraction of it, but you can draw a semi-sphere and use 
+						the mirror tool in order to have the complete work done.</p>
+						<p><strong>Pipe</strong><br>
+						The procedure to draw pipelines is identical to the one 
+						described for boxes. You'll be asked for the radius of 
+						the pipe as soon as you click on the starting point.</p>
+						<p><strong>Door</strong><br>
+						When you want to draw a door you have to select the wall 
+						that it belongs to and click on the position in which 
+						you want to place it. Now you have to specify the door 
+						dimensions in the dialog box.</p>
+						<p><strong>Window</strong><br>
+						The procedure that creates a window is identical to the 
+						one we have described for creating a door. The only 
+						difference is that you have to input also the elevation 
+						of the window.</p>
+						<p><strong>Hole</strong><br>
+						This tool allows you to make holes into walls. First of 
+						all you should select the wall you want to perforate, 
+						then you describe a closed polygon clicking on its 
+						vertices. The last point of the polygon should coincide 
+						with the first one. If you draw a polygon with three 
+						vertices only you'll be asked if you are trying to draw 
+						an arc: if you answer &quot;No&quot; a triangular hole will be 
+						drawn, otherwise the system it will pop up a dialog 
+						asking you the number of segments that approximate to 
+						the arc. The number of steps is automatically suggested 
+						by the program and you can increase it if you wish, but 
+						keep it as small as possible to reduce computation 
+						times.</p>
+						<p><strong>Source</strong><br>
+						You specify the position of a source drawing a segment 
+						from its real position to the point it's aimed at. This 
+						is very important for the correct computation of the 
+						sound field of directive sources. At this point you'll 
+						be asked for the elevation of the source and of its 
+						target point. The roll angle defines the rotation of the 
+						source axis with respect for the floor plane (xy plane). 
+						At last you've to define the full path of the source 
+						parameters file in the common open dialog. If you keep 
+						the Shift key pressed while dragging the mouse pointer 
+						you'll define a rectangular grid of sources. You define 
+						the density of the grid in the dialog box, that will pop 
+						up after you have released the mouse button.</p>
+						<p><strong>Receiver</strong><br>
+						A receiver represents a microphone, any measure 
+						equipment or a person. The tracer results will always be 
+						relative to the receiver's position, they shouldn't be 
+						considered the mean value of the room, so you should use 
+						more than a receiver in order to analyze a room 
+						properly. The more receiver you place the more precise 
+						results you get, but remember that the resulting file 
+						will be much larger and the computation times longer. 
+						You can place a receiver with the same steps described 
+						for a source, but you'll be asked for the receiver 
+						elevation only because the target point is always at the 
+						same height. This piece of information is fundamental 
+						for the computation of LE parameter. You can draw a grid 
+						of receivers following the same procedure used for 
+						sources.</p>
+						<p><strong>Plant, Front and Side views</strong><br>
+						These are the standard orthogonal views that can be 
+						shown or hidden by selecting the corresponding menu 
+						option. You can also activate them by pressing &quot;P&quot;, &quot;F&quot; 
+						and &quot;S&quot; respectively.</p>
+						<p><strong>View</strong><br>
+						This command displays a dialog box in which you can 
+						select some parameters that will affect the rendering of 
+						some entities. In particular you can show or hide all 
+						the receivers, the sources and their respective 
+						orientation vectors.</p>
+						<p><strong>Help</strong><br>
+						This command displays this help page using your internet 
+						browser.</p>
+						<p><strong>About</strong><br>
+						This command displays the usual info box about the 
+						release of the program</p>
+						<hr></div>
+<br>
+
+</body>
+
+</html>

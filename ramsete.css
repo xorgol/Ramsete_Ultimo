@@ -1,0 +1,135 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("http://www.ramsete.com/_themes/ramsete/hiero.jpg");
+	background-repeat: repeat;
+}
+
+div {
+	background-color: #fff;
+}
+
+nav {
+	width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+
+nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+
+nav li a {
+	display: block;
+	float: left;
+	margin: auto;
+	width: 14%;
+	padding: 10px;
+ 
+	background: #444;
+	border: 1px solid #fff;
+ 
+	color: #fff;	
+	font: 400 14px/1.4 Helvetica, Verdana, Arial, sans-serif;
+	text-align: center;
+	text-decoration: none;
+	
+	/*TRANSITIONS*/
+	-webkit-transition: background 0.5s ease;
+	-moz-transition: background 0.5s ease;
+	-o-transition: background 0.5s ease;
+	-ms-transition: background 0.5s ease;
+		transition: background 0.5s ease;
+}
+
+/*HOVER*/
+nav li a:hover {
+	background: #222;
+}
+
+h1 {
+	text-align:center;
+	font: 700 30px/1.4 Helvetica, Verdana, Arial, sans-serif;
+	width: 80%;
+	margin: auto;
+	padding-top: 20px;
+}
+
+h2 {
+	font: 800 22px/1.4 Helvetica, Verdana, Arial, sans-serif;
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+h3 {
+	font: 400 20px/1.4 Helvetica, Verdana, Arial, sans-serif;
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+}
+
+p {
+	text-align:left;
+	font: 400 18px/1.4 Helvetica, Verdana, Arial, sans-serif;
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+}
+
+
+ol li a {
+	font: 400 18px/1.4 Helvetica, Verdana, Arial, sans-serif;
+	text-align: left;
+}
+
+ul li p{
+	font: 400 18px/1.4 Helvetica, Verdana, Arial, sans-serif;
+	text-align: left;
+	list-style: square;
+}
+
+td {
+	text-align: center;
+	font: 400 18px/1.4 Helvetica, Verdana, Arial, sans-serif;
+}
+
+
+/* responsive image */
+img {
+	max-width: 100%;
+}
+@media \0screen {
+  img { 
+  	width: auto; /* for ie 8 */
+  }
+}
+
+/* MEDIA QUERIES*/
+@media only screen and (max-width: 680px),
+only screen and (max-device-width: 680px){
+	nav li a {
+				width: 85%;
+				float: none;
+				margin: auto;
+	}
+
+	img {
+		width: 100%;
+		margin: auto;
+		float: inherit;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+		
+}
+

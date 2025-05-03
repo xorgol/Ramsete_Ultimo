@@ -1,0 +1,76 @@
+; Copyright (c) 2004 EUTRON
+
+[Version]
+Signature="$Windows 95$"
+Provider=%ProviderName%
+Class=SmartKeyToken
+ClassGuid={FD24329F-D8E1-11d5-A0E5-00105A693B00}
+; DriverVer Date is mm/dd/yyyy
+DriverVer=06/18/2004,11.1.26.0
+; Comment this line for unsigned drivers
+; CatalogFile=skeyusb.cat
+
+;--------- Class -------------------------------
+
+[ClassInstall]
+AddReg=Class_AddReg
+
+[ClassInstall32]
+AddReg=Class_AddReg
+
+[Class_AddReg]
+HKR,,,,%DeviceClassName%
+HKR,,Icon,,"-20"
+
+;--------- Manufacturer ----------------------------------
+
+[Manufacturer]
+%MfgName%=Mfg0
+
+[Mfg0]
+%DeviceDesc%=main_DDI, USB\VID_073D&PID_0000
+%DeviceDesc%=main_DDI, USB\VID_073D&PID_0025
+
+[ControlFlags]
+ExcludeFromSelect = USB\VID_073D&PID_0000
+ExcludeFromSelect = USB\VID_073D&PID_0025
+
+; --------- Windows 9X -----------------
+
+[main_DDI]
+AddReg=main_9X_AddReg
+
+[main_9X_AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,skeyusb.sys
+HKR, "Parameters", "FastUSB", 0x00010001, 0
+HKR, "Parameters", "DelayUSB", 0x00010001, 2000
+
+; --------- Windows NT -----------------
+
+[main_DDI.NT]
+AddReg=main_NT_AddReg
+
+[main_DDI.NT.Services]
+AddService = skeyusb, 0x00000002, main_AddService
+
+[main_AddService]
+DisplayName    = %SvcDesc%
+ServiceType    = 1
+StartType      = 3
+ErrorControl   = 1
+ServiceBinary  = %10%\System32\Drivers\skeyusb.sys
+
+[main_NT_AddReg]
+HKLM, "System\CurrentControlSet\Services\skeyusb\Parameters", "FastUSB", 0x00010001, 0
+HKLM, "System\CurrentControlSet\Services\skeyusb\Parameters", "DelayUSB", 0x00010001, 2000
+
+;--------- Strings ---------------------------------------------------
+
+[Strings]
+ProviderName="EUTRON"
+MfgName="EUTRON"
+DeviceClassName="SmartKey Tokens"
+DeviceDesc="SmartKey USB"
+SvcDesc="SmartKey USB"
+

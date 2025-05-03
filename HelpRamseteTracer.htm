@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Language" content="it">
+	<link rel="icon" href="favicon.ico" type="image/x-icon" /> 
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<title>Ramsete Home Page</title>
+	<link rel="stylesheet" type="text/css" href="ramsete.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+	<body >
+		<h1>RAMSETE : Room Acoustics modeling on PC</h1>
+		<nav>
+			<ul>
+				<li><a href="home.htm">Home</a></li>
+				<li><a href="news.htm">News</a></li>
+				<li><a href="features.htm">Package</a></li>
+				<li><a href="download.htm">Download</a></li>
+				<li><a href="support.htm">Support</a></li>
+				<li><a href="AboutUS.htm">About Us</a></li>
+				<li><a href="http://ramsete.forumfree.it/">Forum</a></li>
+			</ul>
+		</nav>
+		<div>
+						<h2>Ramsete Tracer Help</h2>
+						<hr>
+						<p><strong>
+						Subdivision Level</strong><br>
+						This parameter controls the number of pyramids in which 
+						will be subdivided the balloon of each noise/sound 
+						source in the geometric model (.ray). The minimum level 
+						is 0 and it corresponds to 8 pyramids only. For each 
+						level increment the number of pyramids will be doubled, 
+						so the following formula holds true:<br>
+						Pyramids = 8*2^Level<br>
+						Increasing the subdivision level, your results will be 
+						more precise, but keep in mind that the computation time 
+						needed will increase exponentially.</p>
+						<p><strong>
+						Time</strong><br>
+						This is the number of seconds for which the path of the 
+						pyramids will be followed. This parameter, together with 
+						the time resolution, influences the size of the impulse 
+						response buffer, hence the amount of RAM used by the 
+						program (see below) and the size of the resulting files 
+						(.__a, .__b, ...).</p>
+						<p><strong>
+						Time resolution</strong><br>
+						This parameter specifies the size of each time slot 
+						(i.e. the resolution) of the computed impulse response. 
+						The resolution needed is tightly tied with the specific 
+						quantities you want to visualize with Ramsete View, so 
+						it can be as small as 0.0001 seconds, or as big as the 
+						Time parameter. Each time slot will eat 40 bytes of RAM, 
+						so if you want to estimate the RAM needed by the 
+						computation, you can use this formula:<br>
+						Bytes = 40 * (Time / Resolution + 1) * Receivers</p>
+						<p><strong>
+						Humidity</strong><br>
+						This is the percentage of humidity of the simulated 
+						room, so it can range from 5% to 100%. If you don't know 
+						the actual value of the humidity, you can safely assume 
+						it's 50%. The humidity affects the attenuation of the 
+						acoustic signal propagating in the air.</p>
+						<p><strong>
+						Temperature</strong><br>
+						The temperature of the air inside the model is expressed 
+						in Celsius degrees, so it can assume negative values 
+						too. This parameters affects the speed of the sound in 
+						the air.</p>
+						<p><strong>
+						Diffraction level</strong><br>
+						When a spherical sound wave hits a wall with one or more 
+						free edges, it can reach the receivers behind it, even 
+						if the line connecting them to the image source is 
+						obstructed by the wall itself. The normal tracing 
+						algorithms don't handle this particular configuration, 
+						so they simply ignore the receivers behind the wall and 
+						reflect the wave as usual. The full simulation of this 
+						physical behaviour would be very time consuming, but we 
+						can reach a compromise between computation time and 
+						simulation precision by limiting the number of 
+						diffractions to one or two consecutive faces. In the 
+						worst case, i.e. two faces with four free edges (two 
+						consecutive panels suspended in the air), you can have 
+						16 energy contributions from a single wave. You should 
+						check this option on only when your model contains a 
+						limited number of obstructing faces with significant 
+						dimensions.</p>
+						<p><strong>
+						History</strong><br>
+						Normally the path of a pyramid is followed for the 
+						specified amount of time, but sometimes it can be useful 
+						to stop the calculations after a fixed number of 
+						reflections against the walls of the room. Checking 
+						history checkbox you can fix the maximum number of 
+						reflections and force the program to ignore the time 
+						limit. Anyway the time still determines the size of the 
+						impulse response buffers but doesn't affect the duration 
+						of the simulation. You can specify any number greater 
+						than or equal to zero. Specifying a zero history, you 
+						force the computation of the direct wave only.</p>
+						<p><strong>
+						Randomize after</strong><br>
+						The simulation algorithm adopted by Ramsete always gives 
+						predictable and repeatable results, for a given 
+						geometric configuration. Anyway, especially when 
+						studying simple geometries, you could obtain some 
+						unexpected artifacts in the resulting impulse response, 
+						due to the unlucky relative positions of the sources and 
+						the walls. If after a specified number of reflections, 
+						you add a small random deviation to the pyramids, you 
+						could remove this artifacts, simulating also a sort of 
+						diffusion effect (see below).</p>
+						<p><strong>
+						Save hits</strong><br>
+						Ramsete View can visualize the path of the pyramids from 
+						the source to every single receiver. In order to enable 
+						this useful option you have to select the maximum number 
+						of hits (reflections) you want to store on a special 
+						file (.@__) associated with the usual impulse response 
+						file. This file can easily reach huge dimensions, so you 
+						must keep this parameter as small as possible and you 
+						should also check often the free space left on your hard 
+						disk.</p>
+						<p><strong>
+						Diffusion</strong><br>
+						Ramsete 2 can also simulate the diffuse energy that 
+						normally is ignored by the standard algorithms. Turning 
+						this option on gives you much more realistic results, 
+						deleting the artifacts introduced by any deterministic 
+						simulation, especially near the queue of the impulse 
+						response. Of course you have to pay the price of a 
+						longer computation time.</p>
+						<p><strong>
+						Save diffuse hits</strong><br>
+						Checking this option you can save also the energy 
+						contributions due to diffusion effect in the same file 
+						in which are stored the normal hits.</p>
+						<p><strong>
+						Save separated sources</strong><br>
+						When you check this option, the program will save a 
+						different result file for each source present in the 
+						model. The file corresponding to the first source will 
+						be named after the model name but it will have a &quot;.__a&quot; 
+						extension. The second file will have a &quot;.__b&quot; extension 
+						and so on ... If you uncheck this option all the results 
+						will be summed in a single &quot;.___&quot; file.</p>
+						<p><strong>
+						Save escaped rays</strong><br>
+						Sometimes you may notice that some pyramids can't hit a 
+						surface, so they &quot;escape&quot; from the modeled room. This 
+						behavior is normal in open spaces, but should be avoided 
+						in closed ones. Saving the escaped rays in the special 
+						file &quot;escaped.ray&quot; and loading it in Ramsete CAD, you 
+						can have many hints on the unwanted holes present in 
+						your model.</p>
+						<p><strong>
+						The following file has been already 
+						processed</strong><br>
+						This box informs you that the file whose name appears 
+						below the checkbox itself, has already been processed, 
+						thus it will be ignored if you press the &quot;Start&quot; button 
+						to begin the calculation. If you want to force the 
+						recalculation of the results, simply uncheck this box.<br>
+						Pressing this button you can add files to the list of 
+						&quot;.ray&quot; models to be processed. Once the list is complete 
+						you can click on the individual names and make 
+						modifications to any of the parameters described above, 
+						so that each model can be processed differently with the 
+						appropriated options. You can also remove one or more 
+						files from the list clicking the &quot;Clear&quot; button.</p>
+						<p><strong>
+						Save Default</strong><br>
+						This button saves all the current settings to the 
+						ramsete.ini so that they can be retrieved on each 
+						execution of Ramsete, with no need of inserting them 
+						from scratch each time.</p>
+						<p><strong>
+						Help</strong><br>
+						This buttons displays this help page.</p>
+						<p><strong>
+						About</strong><br>
+						This button displays some info on the version of the 
+						Ramsete Trace program.</p>
+						<p><strong>
+						Close</strong><br>
+						This button terminates the tracing session.</p>
+						<p><strong>
+						Clear</strong><br>
+						This button deletes the currently selected file from the 
+						list of models to be processed.</p>
+						<p><strong>
+						Start</strong></p>
+
+							<p>This button starts the 
+							computation of the impulse response of all the files 
+							that haven't been processed yet. You will be 
+							prompted with the following status window, that will 
+							display all the informations about the parameters, 
+							the geometric model and the progress of the 
+							computation. Pressing the &quot;Cancel&quot; button you can 
+							abort all the calculations and return to the main 
+							window.</p>
+						</div>
+						<br>
+					
+
+</body>
+
+</html>

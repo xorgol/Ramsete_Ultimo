@@ -1,0 +1,26 @@
+EUTRON SPA
+INFORMATION SECURITY SOLUTION                  
+
+Phone +39-(0)35-697011
+Fax   +39-(0)35-697092
+
+Internet : http://www.smartkey.eutron.it
+Technical support : helpdesk@eutron.it
+Commercial info : info@eutron.it
+
+
+DRIVER SMARTKEY USB PER WINDOWS 9x/Me/2000/XP
+---------------------------------------------
+
+Driver per la SmartKey USB in Windows 9x/Me/2000/XP
+
+
+INSTALLAZIONE
+-------------
+
+Per installare il driver seguite i seguenti passi:
+
+- Decomprimere il presente pacchetto in una directory temporanea
+- Inserire in una porta USB la SmartKey USB
+- Quando Windows chiederà di installare il driver, specificare il direttorio
+  contenente il file SKEYUSB.INF ed automaticamente il driver verrà installato
