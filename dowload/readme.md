@@ -5,7 +5,7 @@ Then do the same for version 3.09
 
 # Licensing
 
-You should already have ramsete.key file, which must be copied into the Ramsete install folder.
+You should already have a ramsete.key file, which must be copied into the Ramsete install folder.
 If you need a licensing file, write me at xorgol@gmail.com
 
 Adriano Farina
