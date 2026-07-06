@@ -6,6 +6,8 @@ Then do the same for version 3.09
 # Licensing
 
 You should already have a ramsete.key file, which must be copied into the Ramsete install folder.
-If you need a licensing file, write me at xorgol@gmail.com
+If you need to buy Ramsete, you have to contact Spectra: https://www.spectra.it/prodotti/software/ramsete/
+
+For post-sale support, you can e-mail p.galaverna@genesis-aw.com or xorgol@gmail.com
 
 Adriano Farina
